@@ -1,77 +1,121 @@
 * {
     margin: 0;
     padding: 0;
-}
-
-body {
+  }
+  
+  body {
     background-color: grey;
     text-transform: capitalize;
-}
-
-/* header page */
-a {
+  }
+  
+  /* header page */
+  a {
     text-decoration: none;
     color: black;
-}
-
-header {
-    background-color: pink;
+  }
+  
+  header {
+    background-color: rgb(80, 226, 57);
+    color: white;
     display: flex;
     justify-content: flex-end;
-    padding: 50px;
-}
-
-#gym-logo {
+    padding: 40px;
+  }
+  
+  #gym-logo {
     word-spacing: -5px;
     font-size: 140%;
-    margin: -20px auto 0 -25px;
-    background-color: aqua;
-}
-
-/* nav bar page */
-#nav-hero ul {
-    margin: 0 20px;
-}
-
-#nav-hero ul li {
-    background-color: yellow;
+    margin-right: auto;
+  }
+  
+  /* nav bar page */
+  #nav-hero ul {
+    margin-top: 10px;
+  }
+  
+  #nav-hero ul li {
     display: inline-block;
     margin: 0 10px;
     font-size: 140%;
-}
-
-/* medim screen-size */
-@media screen and (max-width: 800px) {
-    * {
-        margin: 0;
-        padding: 0;
+  }
+  #nav-hero ul li a:hover{
+      border-bottom: 2px solid red;
+      color: white;
+      transition: 150ms ease-in-out;
     }
-    
-    body {
-        background-color: rgba(197, 16, 16, 0.76);
-    }
+  
+  /* large screen-size 950px */
+  @media screen and (max-width: 950px) {
     header {
-        display: flex;
-        justify-content: flex-end;
-        padding: 70px;
+      padding: 60px;
     }
-    
+  
     #gym-logo {
-        word-spacing: -5px;
-        font-size: 110%;
-        margin: -30px auto 0 -45px;
+      font-size: 130%;
+      margin: -30px auto 0 -55px;
     }
-    
+  
+    /* nav bar page */
+  
+    #nav-hero ul {
+      margin: -10px 0 -20px 0;
+    }
+  
+    #nav-hero ul li {
+      font-size: 125%;
+    }
+  }
+  
+  /* medim screen-size */
+  @media screen and (max-width: 768px) {
+  
+    header {
+      padding: 80px;
+    }
+  
+    #gym-logo {
+      word-spacing: -5px;
+      font-size: 120%;
+      margin: -30px auto 0 -60px;
+    }
+  
     /* nav bar page */
     #nav-hero ul {
-        margin: 0 5px;
+      margin: -10px -50px 0 0;
     }
-    
+  
     #nav-hero ul li {
-        background-color: yellow;
-        display: inline-block;
-        margin: 0 5px;
-        font-size: 120%;
+      display: inline-block;
+      margin: 0 5px;
+      font-size: 115%;
     }
-    
-}
+  }
+  
+  /* medim to small screen-size */
+  @media screen and (max-width: 650px) {
+    header {
+      display: flex;
+      flex-direction: column;
+      padding: 60px;
+    }
+  
+    #gym-logo {
+      word-spacing: -3px;
+      font-size: 100%;
+      margin-right: auto;
+      margin-bottom: 30px;
+      padding-left: 10px;
+    }
+  
+    /* nav bar page */
+    #nav-hero ul {
+      margin-top: 10px;
+    }
+  
+    #nav-hero ul li {
+      display: inline-block;
+      margin: 0 10px;
+      font-size: 140%;
+    }
+  }
+  
