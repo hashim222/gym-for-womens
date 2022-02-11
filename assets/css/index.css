@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: grey;
+    text-transform: capitalize;
+}
+
+/* header page */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    background-color: pink;
+    display: flex;
+    justify-content: flex-end;
+    padding: 50px;
+}
+
+#gym-logo {
+    word-spacing: -5px;
+    font-size: 140%;
+    margin: -20px auto 0 -25px;
+    background-color: aqua;
+}
+
+/* nav bar page */
+#nav-hero ul {
+    margin: 0 20px;
+}
+
+#nav-hero ul li {
+    background-color: yellow;
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 140%;
+}
+
+/* medim screen-size */
+@media screen and (max-width: 800px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background-color: rgba(197, 16, 16, 0.76);
+    }
+    header {
+        display: flex;
+        justify-content: flex-end;
+        padding: 70px;
+    }
+    
+    #gym-logo {
+        word-spacing: -5px;
+        font-size: 110%;
+        margin: -30px auto 0 -45px;
+    }
+    
+    /* nav bar page */
+    #nav-hero ul {
+        margin: 0 5px;
+    }
+    
+    #nav-hero ul li {
+        background-color: yellow;
+        display: inline-block;
+        margin: 0 5px;
+        font-size: 120%;
+    }
+    
+}
