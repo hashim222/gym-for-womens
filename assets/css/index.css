@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Rowdies:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Rowdies:wght@300&display=swap");
 
 * {
   margin: 0;
@@ -6,9 +6,8 @@
 }
 
 body {
-  background-color: grey;
   text-transform: capitalize;
-font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
 }
 
 /* header page */
@@ -50,73 +49,90 @@ header {
   transition: 150ms ease-in-out;
 }
 /* main page */
-#images-outer{
-    width: 100%;
-    margin-top: 30px; 
-    display: flex;
-    position: relative;
+#images-outer {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  position: relative;
 }
-.exercise-image1{
-    height: 500px;
-    width: 40%;
-    background-image: url(../images/women-exercising.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;    
+.exercise-image1 {
+  height: 500px;
+  width: 40%;
+  background-image: url(../images/women-exercising.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.exercise-image2{
-    height: 500px;
-    width: 60%;
-    background-image: url(../images/women-exercising\ \(2\).jpg);
-    background-size: cover;
-    background-position:top right;
-    background-repeat: no-repeat;    
+.exercise-image2 {
+  height: 500px;
+  width: 60%;
+  background-image: url(../images/women-exercising2.jpg);
+  background-size: cover;
+  background-position: top right;
+  background-repeat: no-repeat;
 }
-.image-text{
+.image-text {
   background-color: rgba(255, 192, 203, 0.26);
   position: absolute;
-  position: fixed;
-  top: 300px;
-  right: 600px;
-  width: 13%;
-  line-height: 30px;
-  font-size: 160%;
-  font-family: 'Exo 2', sans-serif;
+  top: 150px;
+  right: 40%;
+  width: 160px;
+  line-height: 25px;
+  font-size: 150%;
+  font-family: "Exo 2", sans-serif;
   text-align: center;
-  padding: 15px;
+  padding: 25px;
   border-radius: 10px;
+}
+/*Extra large screen-size 1080px */
+@media screen and (max-width: 1080px) {
+  .image-text {
+    right: 38%;
+    width: 140px;
+    line-height: 23px;
+    font-size: 130%;
+  }
 }
 /* large screen-size 950px */
 @media screen and (max-width: 950px) {
-  header {
-    padding: 60px;
-  }
   .logo-image {
     height: 2.3rem;
   }
   #gym-logo {
     font-size: 130%;
-    margin: -30px auto 0 -55px;
-    padding-left: 10px;
+    margin: -10px auto 0 -55px;
+    padding-left: 20px;
   }
 
   /* nav bar page */
 
   #nav-hero ul {
-    margin: -10px 0 -20px 0;
+    margin: 5px -20px -20px 0;
   }
 
   #nav-hero ul li {
     font-size: 125%;
   }
-  
 
+  /* main page */
+  .exercise-image1 {
+    height: 450px;
+  }
+  .exercise-image2 {
+    height: 450px;
+  }
+  .image-text {
+    position: absolute;
+    top: 110px;
+    right: 37%;
+    padding: 13px;
+  }
 }
 
-/* medim screen-size */
+/* medim screen-size 768px*/
 @media screen and (max-width: 768px) {
   header {
-    padding: 80px;
+    padding: 60px;
   }
   .logo-image {
     height: 2rem;
@@ -124,57 +140,93 @@ header {
 
   #gym-logo {
     font-size: 120%;
-    margin: -30px auto 0 -60px;
+    margin: 0 auto 0 -60px;
     padding-left: 10px;
   }
 
   /* nav bar page */
   #nav-hero ul {
-    margin: -10px -50px 0 0;
+    margin: 15px -45px 0 0;
   }
 
   #nav-hero ul li {
-    display: inline-block;
     margin: 0 5px;
     font-size: 115%;
   }
+  /* main page */
+  #images-outer {
+    margin-top: 25px;
+  }
+  .exercise-image1 {
+    height: 400px;
+  }
+  .exercise-image2 {
+    height: 400px;
+  }
+  .image-text {
+    position: absolute;
+    top: 80px;
+    right: 40%;
+    width: 100px;
+    line-height: 16px;
+    font-size: 110%;
+    padding: 12px;
+  }
 }
 
-
-/* medim to small screen-size */
+/* medim to small screen-size 650px*/
 @media screen and (max-width: 650px) {
+  body {
+    overflow: hidden;
+  }
   header {
     display: flex;
     flex-direction: column;
-    padding: 60px;
+    padding: 20px;
   }
-  .logo-image {
-    height: 2rem;
-  }
-
   #gym-logo {
     font-size: 100%;
-    margin-right: auto;
+    margin-left: -20px;
     margin-bottom: 30px;
   }
 
   /* nav bar page */
   #nav-hero ul {
     margin-top: 10px;
+    margin-right: auto;
+    text-align: center;
   }
 
   #nav-hero ul li {
-    display: inline-block;
     margin: 0 10px;
     font-size: 140%;
   }
+
+  /* main page */
+  #images-outer {
+    margin-top: 30px;
+  }
+  .exercise-image1 {
+    height: 370px;
+  }
+  .exercise-image2 {
+    height: 370px;
+  }
+  .image-text {
+    position: absolute;
+    top: 200px;
+    right: 5%;
+    width: 80px;
+    line-height: 15px;
+    font-size: 90%;
+  }
 }
 
-/* small screen-size */
+/* small screen-size 500px*/
 
 @media screen and (max-width: 500px) {
   header {
-    padding: 50px;
+    padding: 20px;
   }
   .logo-image {
     height: 1.6rem;
@@ -182,8 +234,8 @@ header {
   #gym-logo {
     font-size: 80%;
     margin-right: auto;
-    margin-bottom: 30px;
-    padding-left: 20px;
+    margin-top: 10px;
+    padding-left: 5px;
   }
 
   /* nav bar page */
@@ -195,5 +247,19 @@ header {
     display: inline-block;
     margin: 0 10px;
     font-size: 110%;
+  }
+  /* main page */
+  .exercise-image1 {
+    height: 350px;
+  }
+  .exercise-image2 {
+    height: 350px;
+  }
+  .image-text {
+    position: absolute;
+    right: 5%;
+    width: 70px;
+    font-size: 80%;
+    padding: 15px;
   }
 }
