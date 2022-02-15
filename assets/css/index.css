@@ -7,7 +7,6 @@
 
 body {
   text-transform: capitalize;
-  font-family: "Anton", sans-serif;
 }
 
 /* header page */
@@ -22,6 +21,7 @@ header {
   display: flex;
   justify-content: flex-end;
   padding: 50px;
+  font-family: "Anton", sans-serif;
 }
 .logo-image {
   height: 2.4rem;
@@ -45,12 +45,12 @@ header {
   font-size: 140%;
 }
 #nav-hero ul li a:hover {
-  border-bottom: 2px solid red;
+  border-bottom: 3px solid red;
   transition: 150ms ease-in-out;
 }
 .nav-icon {
-padding-top: 5px;
-vertical-align: top;
+  padding-top: 5px;
+  vertical-align: top;
 }
 /* main page */
 #images-outer {
@@ -89,6 +89,77 @@ vertical-align: top;
   border-radius: 10px;
   color: white;
 }
+/* section two */
+.join-us-text {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 30px;
+  font-family: "Krona One", sans-serif;
+  font-size: 200%;
+  margin-top: 30px;
+  border-bottom: 2px solid black;
+}
+#hero-monthly-prices {
+  margin-top: 3rem;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  background-color: black;
+}
+#hero-monthly-prices > h2 {
+margin: 100px auto 100px auto;
+  padding: 20px;
+  font-size: 160%;
+  width: 30%;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.548);
+  color: white;
+  border-radius: 10px;
+  border: 10px solid white;
+  box-shadow: 5px 8px greenyellow;
+}
+.monthly-price {
+  font-style: italic;
+  color: tomato;
+  border-bottom: 3px solid tomato;
+}
+.text-monthly-prices-image {
+  background-image: url(../images/monthly-price-image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  width: 50%;
+}
+/* #weekly-classes-images {
+  background-color: aqua;
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+  width: 100%;
+}
+.classes-image-1 {
+  background-image: url(../images/weekly-classes-1.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 500px;
+  width: 33%;
+}
+.classes-image-2 {
+  background-image: url(../images/weekly-classes-2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  width: 33%;
+}
+.classes-image-3 {
+  background-image: url(../images/weekly-classes-3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  width: 34%;
+} */
+
 /*Extra large screen-size 1080px */
 @media screen and (max-width: 1080px) {
   .image-text {
@@ -96,6 +167,18 @@ vertical-align: top;
     width: 140px;
     line-height: 23px;
     font-size: 130%;
+  }
+  /* section two */
+  #hero-monthly-prices {
+    height: 380px;
+  }
+  #hero-monthly-prices > h2 {
+    padding: 25px;
+    font-size: 150%;
+  }
+  .text-monthly-prices-image {
+    background-position: center;
+    height: 380px;
   }
 }
 /* large screen-size 950px */
@@ -131,6 +214,17 @@ vertical-align: top;
     top: 110px;
     right: 37%;
     padding: 13px;
+  }
+  /* section two */
+  #hero-monthly-prices {
+    margin-top: 3.5rem;
+    height: 360px;
+  }
+  #hero-monthly-prices > h2 {
+    font-size: 125%;
+  }
+  .text-monthly-prices-image {
+    height: 360px;
   }
 }
 
@@ -177,12 +271,32 @@ vertical-align: top;
     font-size: 110%;
     padding: 12px;
   }
+    /* section two */
+  #hero-monthly-prices {
+    margin-top: 3rem;
+    height: 340px;
+  }
+  #hero-monthly-prices > h2 {
+    padding: 15px;
+    font-size: 110%;
+    width: 30%;
+    border: 5px solid white;
+    box-shadow: 4px 6px greenyellow;
+  }
+  .monthly-price {
+    font-style: italic;
+    color: tomato;
+    border-bottom: 3px solid tomato;
+  }
+  .text-monthly-prices-image {
+    height: 340px;
+  }
 }
 
 /* medim to small screen-size 650px*/
 @media screen and (max-width: 650px) {
   body {
-    overflow: hidden;
+      overflow-x: hidden;
   }
   header {
     display: flex;
@@ -225,6 +339,30 @@ vertical-align: top;
     line-height: 15px;
     font-size: 90%;
   }
+/* section two */
+.join-us-text {
+    font-size: 150%;
+  }
+  #hero-monthly-prices {
+    margin-top: 3rem;
+    height: 400px;
+    width: 100%;
+    display:inline-block;
+    position: relative;
+  }
+  #hero-monthly-prices > h2 {
+    padding: 25px;
+    font-size: 140%;
+    width: 70%;
+    position:absolute;
+    top: 40px;
+    right: 65px;
+    border: 4px solid white;
+    box-shadow: 3px 5px greenyellow;
+  }
+  .text-monthly-prices-image {
+    width: 100%;
+  }
 }
 
 /* small screen-size 500px*/
@@ -250,24 +388,111 @@ vertical-align: top;
 
   #nav-hero ul li {
     display: inline-block;
-    margin: 0 10px;
-    font-size: 80%;
+    margin: 0 5px;
+    font-size: 95%;
   }
   .nav-icon {
     padding-top: 3px;
-    }
+  }
   /* main page */
   .exercise-image1 {
-    height: 350px;
+    height: 280px;
   }
   .exercise-image2 {
-    height: 350px;
+    height: 280px;
   }
   .image-text {
     position: absolute;
-    right: 5%;
+    top: 150px;
+    right: 15px;
     width: 70px;
     font-size: 80%;
     padding: 15px;
   }
+  /* section two */
+  #hero-monthly-prices {
+    height: 370px;
+  }
+  #hero-monthly-prices > h2 {
+    padding: 20px;
+    font-size: 100%;
+    width: 55%;
+    top: 5px;
+    right: 40px;
+    border: 4px solid white;
+    box-shadow: 3px 5px greenyellow;
+  }
+  .text-monthly-prices-image {
+    width: 100%;
+  }
+}
+
+/* higher-resolution screens 1600px+ */
+@media screen and (min-width: 2000px) {
+    header {
+        padding: 80px;
+      }
+      .logo-image {
+        height: 4rem;
+      }
+      
+      #gym-logo {
+        font-size: 160%;
+        margin-top: -5px;
+      }
+      
+      /* nav bar page */
+      #nav-hero ul {
+        margin-top: 30px;
+      }
+      
+      #nav-hero ul li {
+        font-size: 170%;
+      }
+      /* main page */
+      #images-outer {
+        width: 100%;
+        margin-top: 50px;
+        display: flex;
+        position: relative;
+      }
+      .exercise-image1 {
+        height: 700px;
+      }
+      .exercise-image2 {
+        height: 700px;
+      }
+      .image-text {
+        position: absolute;
+        top: 200px;
+        right: 40%;
+        width: 160px;
+        font-size: 160%;
+      }
+      /* section two */
+      .join-us-text {
+        padding: 40px;
+        font-size: 250%;
+        margin-top: 40px;
+      }
+      #hero-monthly-prices {
+        margin-top: 5rem;
+        height: 600px;
+        width: 100%;
+        }
+      #hero-monthly-prices > h2 {
+      margin: 100px auto 100px auto;
+        padding: 20px;
+        font-size: 250%;
+        width: 20%;
+        border-radius: 15px;
+      }
+      .text-monthly-prices-image {
+        background-image: url(../images/monthly-price-image.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 600px;
+        width: 50%;
+      }
 }
