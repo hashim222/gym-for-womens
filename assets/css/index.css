@@ -540,6 +540,9 @@ margin: 100px auto 100px auto;
     height: 340px;
   }
   /* about us  page */
+  #about-us-hero{
+      margin: 30px;
+  }
 .abt-us-1{
    width: 100%;
 }
@@ -547,7 +550,7 @@ margin: 100px auto 100px auto;
     font-size: 220%;
 }
 .abt-us-1 > p{
-    font-size: 120%;
+    font-size: 120
 }
 
 .abt-us-2{
@@ -662,7 +665,7 @@ margin: 100px auto 100px auto;
         border-radius: 15px;
       }
       .monthly-prices-image {
-        background-image: url(../images/monthly-price-image.jpg);
+        background-image: url(../images/workout-fitness-center.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
