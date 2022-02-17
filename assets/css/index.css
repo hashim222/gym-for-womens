@@ -133,7 +133,7 @@ margin: 100px auto 100px auto;
 }
 /* about us  page */
 #about-us-hero{
-    margin: 50px;
+    margin: 60px 50px 10px 50px;
 }
 .abt-us-1{
    width: 50%;
@@ -145,6 +145,7 @@ margin: 100px auto 100px auto;
     text-align: center;
     color: greenyellow;   
     font-family: 'Rubik Mono One', sans-serif;
+    padding: 10px;
 }
 .abt-us-1 > p{
     text-transform: lowercase;
@@ -153,6 +154,7 @@ margin: 100px auto 100px auto;
     background-color: rgba(0, 0, 0, 0.74);
     color: white;
     padding: 20px;
+    border-radius: 10px;
 }
 
 .abt-us-2{
@@ -166,6 +168,7 @@ margin: 100px auto 100px auto;
     font-family: 'Rubik Mono One', sans-serif;
     margin-top: 30px;
     margin-bottom: 20px;
+    padding: 10px;
 } 
 .abt-us-2 > ul{
      padding-left: 40px;
@@ -223,6 +226,9 @@ margin: 100px auto 100px auto;
     height: 380px;
   }
   /* about us  page */
+  #about-us-hero{
+    margin: 40px;
+}
 .abt-us-2 > h3{
     font-size: 170%;
     margin-top: 40px;
@@ -278,7 +284,7 @@ margin: 100px auto 100px auto;
   }
     /* about us  page */
 #about-us-hero{
-    margin: 60px;
+    margin: 60px 30px 10px 30px;
 }
 .abt-us-1{
     width: 55%;
@@ -363,7 +369,7 @@ margin: 100px auto 100px auto;
   }
     /* about us  page */
 #about-us-hero{
-    margin: 60px;
+    margin: 60px 35px 10px 35px;
 }
 .abt-us-1{
    width: 65%;
@@ -394,7 +400,7 @@ margin: 100px auto 100px auto;
     padding: 20px;
   }
   #gym-logo {
-    font-size: 100%;
+    font-size: 110%;
     margin-left: -20px;
     margin-bottom: 30px;
   }
@@ -456,7 +462,7 @@ margin: 100px auto 100px auto;
   }
   /* about us  page */
   .abt-us-1{
-    width: 100%;
+    width: 80%;
  }
 .abt-us-1 > h2{
     font-size: 225%;
@@ -470,7 +476,7 @@ margin: 100px auto 100px auto;
 } 
 .abt-us-2 > ul{
     column-count: 2;
-    font-size: 125%;
+    font-size: 120%;
 }
 }
 
@@ -481,10 +487,10 @@ margin: 100px auto 100px auto;
     padding: 15px;
   }
   .logo-image {
-    height: 1.6rem;
+    height: 1.7rem;
   }
   #gym-logo {
-    font-size: 80%;
+    font-size: 95%;
     margin-right: auto;
     margin-top: 10px;
     padding-left: 15px;
@@ -499,7 +505,7 @@ margin: 100px auto 100px auto;
     display: inline-block;
     margin: 0 5px;
     margin: 0 3px 0 8px;
-    font-size: 95%;
+    font-size: 120%;
   }
   .nav-icon {
     padding-top: 3px;
@@ -527,13 +533,13 @@ margin: 100px auto 100px auto;
     height: 340px;
   }
   #hero-monthly-prices > h2 {
-    font-size: 95%;
+    font-size: 100%;
     position: absolute;
-    top: 10px;
-    right: 80px;
-    width: 200px;
-    border: 4px solid white;
-    box-shadow: 2px 4px greenyellow;
+    top: 50px;
+    right: 60px;
+    width: 60%;
+    border: 3px solid white;
+    box-shadow: 2px 3px greenyellow;
   }
   .monthly-prices-image {
     width: 100%;
@@ -550,7 +556,7 @@ margin: 100px auto 100px auto;
     font-size: 220%;
 }
 .abt-us-1 > p{
-    font-size: 120
+    font-size: 120%;
 }
 
 .abt-us-2{
@@ -561,12 +567,15 @@ margin: 100px auto 100px auto;
 } 
 .abt-us-2 > ul{
     column-count: 2;
-    font-size: 115%;
+    font-size: 110%;
 }
 }
 
 /* lowest resolution width 380px */
 @media screen and (max-width:380px) {
+    #nav-hero ul li {
+        font-size: 100%;
+      }
     .image-text {
         position: absolute;
         top: 150px;
@@ -578,11 +587,9 @@ margin: 100px auto 100px auto;
 /* main section */
       #hero-monthly-prices > h2 {
         font-size: 90%;
-        width: 200px;
-        top: 10px;
-        right: 20px;
-        border: 4px solid white;
-        box-shadow: 2px 2px greenyellow;
+        width: 65%;
+        top: 40px;
+        left: 30px;
       }
       .monthly-prices-image {
         width: 100%;
@@ -665,7 +672,7 @@ margin: 100px auto 100px auto;
         border-radius: 15px;
       }
       .monthly-prices-image {
-        background-image: url(../images/workout-fitness-center.jpg);
+        background-image: url(../images/monthly-price-image.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
