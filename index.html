@@ -24,13 +24,13 @@
         <nav id="nav-hero">
             <ul>
                 <li>
-                    <a href="#"><i class="fa-solid fa-house-chimney nav-icon"></i> home</a>
+                    <a href="index.html"><i class="fa-solid fa-house-chimney nav-icon"></i> home</a>
                 </li>
                 <li>
                     <a href="#about-us-hero"><i class="fa-solid fa-circle-info nav-icon"></i> about us</a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#main-form">
                         <i class="fa-solid fa-address-book nav-icon"></i> contact us </a>
                 </li>
             </ul>
@@ -114,6 +114,33 @@
         </div>
     </article>
 
+    <!-- contact us page -->
+    <form action="#" method="post" id="main-form">
+        <h2>contact us</h2>
+        <fieldset>
+            <legend>enter your details:</legend>
+
+    <label for="fname">first name:</label>
+    <input type="text" id="fname" name="fname" placeholder="Enter Your First Name" required>
+
+    <label for="lname">last name:</label>
+    <input type="text" id="lname" name="lname" placeholder="Enter Your Last Name" required>
+
+    <label for="email">email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter Your Email Address" required>
+
+    <label for="pnumber">phone number:</label>
+    <input type="text" id="pnumber" name="pnumber" placeholder="Phone Number" required>
+
+
+    <label for="subject">subject:</label>
+    <textarea name="subject" id="subject" cols="10" rows="7" required>subject</textarea>
+
+           <div class="submit-btn">
+            <input type="submit" value="Submit Form">
+           </div>
+        </fieldset>
+    </form> 
 </body>
 
 </html>
