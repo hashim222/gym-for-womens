@@ -266,6 +266,30 @@ input[type="submit"]:hover {
   text-align: center;
   margin-top: 30px;
 }
+.promotion-email {
+  text-align: center;
+  margin-top: 20px;
+}
+.email-promo {
+  display: inline-block;
+  margin: 15px;
+  cursor: pointer;
+}
+/* contact us SUBMIT PAGE */
+.thank-u-page {
+  background-color: rgba(0, 0, 0, 0.274);
+  position: absolute;
+  top: 150px;
+  right: 30%;
+  width: 600px;
+  line-height: 35px;
+  font-size: 200%;
+  font-family: "Exo 2", sans-serif;
+  text-align: center;
+  padding: 25px;
+  border-radius: 10px;
+  color: white;
+}
 /*Extra large screen-size 1080px */
 @media screen and (max-width: 1080px) {
   .image-text {
@@ -300,6 +324,12 @@ input[type="submit"]:hover {
   }
   .abt-us-2 > ul {
     font-size: 125%;
+  }
+  /* contact us submit page */
+  .thank-u-page {
+    right: 20%;
+    width: 600px;
+    font-size: 200%;
   }
 }
 /* large screen-size 950px */
@@ -374,6 +404,15 @@ input[type="submit"]:hover {
   }
   .abt-us-2 > ul {
     font-size: 130%;
+  }
+
+  /* contact us submit page */
+  .thank-u-page {
+    top: 140px;
+    right: 20%;
+    width: 500px;
+    line-height: 40px;
+    font-size: 180%;
   }
 }
 
@@ -468,6 +507,15 @@ input[type="submit"]:hover {
   .abt-us-2 > ul {
     padding-left: 40px;
     column-count: 2;
+  }
+
+  /* contact us submit page */
+  .thank-u-page {
+    top: 140px;
+    right: 15%;
+    width: 450px;
+    line-height: 45px;
+    font-size: 160%;
   }
 }
 
@@ -566,6 +614,14 @@ input[type="submit"]:hover {
   .abt-us-2 > ul {
     column-count: 2;
     font-size: 120%;
+  }
+
+  /* contact us submit page */
+  .thank-u-page {
+    right: 18%;
+    width: 350px;
+    line-height: 35px;
+    font-size: 140%;
   }
 }
 
@@ -666,6 +722,15 @@ input[type="submit"]:hover {
     column-count: 2;
     font-size: 110%;
   }
+
+  /* contact us submit page */
+  .thank-u-page {
+    top: 70px;
+    left: 10%;
+    width: 55%;
+    line-height: 30px;
+    font-size: 110%;
+  }
 }
 
 /* lowest resolution width 380px */
@@ -714,6 +779,14 @@ input[type="submit"]:hover {
   .abt-us-2 > ul {
     column-count: 1;
     font-size: 120%;
+  }
+  /* contact us submit page */
+  .thank-u-page {
+    top: 80px;
+    left: 15%;
+    width: 50%;
+    line-height: 25px;
+    font-size: 105%;
   }
 }
 
