@@ -13,14 +13,16 @@
 </head>
 
 <body>
-    <!-- header page -->
+    <!-- header section -->
     <header>
-        <a id="gym-logo" href="index.html">
-            <h1>gym<img class="logo-image" src="assets/images/outline_fitness_center_black_24dp.png"
-                    alt="womens gym logo">for womens</h1>
+        <a href="index.html" id="gym-logo">
+            <h1>
+                <span>gym</span><img src="assets/images/outline_fitness_center_black_24dp.png" alt="womens gym logo"
+                    class="gym-image-logo"><span>for womens</span>
+            </h1>
         </a>
 
-        <!-- nav page -->
+        <!-- nav section -->
         <nav id="nav-hero">
             <ul>
                 <li>
@@ -30,26 +32,30 @@
                     <a href="#about-us-hero"><i class="fa-solid fa-circle-info nav-icon"></i> about us</a>
                 </li>
                 <li>
-                    <a href="#main-form">
+                    <a href="#form-hero">
                         <i class="fa-solid fa-address-book nav-icon"></i> contact us </a>
                 </li>
             </ul>
         </nav>
     </header>
+
     <!-- main page -->
     <main>
-        <!-- section one -->
-        <section id="images-outer">
+
+        <!-- section one home -->
+        <section id="exercise-images-outer">
             <div class="exercise-image1">
 
             </div>
             <div class="exercise-image2">
+
             </div>
-            <h2 class="image-text">a place where you can feel comfortable with yourself</h2>
+            <h2 class="exercise-image-text">a place where you can feel comfortable with yourself</h2>
         </section>
-        <!-- section two -->
+
+        <!-- section two welcome to gym-->
         <section id="join-new-members">
-            <h2 class="welcome-gym">
+            <h2 class="welcome-gym-text">
                 welcome to gym for womens
             </h2>
             <div id="hero-monthly-prices">
@@ -62,10 +68,11 @@
                 </div>
             </div>
         </section>
+
         <!-- section three weekly classes -->
         <section id="weekly-classes-hero">
             <h2>Fitness classes are available every week</h2>
-            <div class="weekly-classes-hero">
+            <div class="weekly-classes-images-hero">
                 <img src="assets/images/class-image-1.jpg" class="weekly-classes" alt="weekly fitness clases image1">
                 <img src="assets/images/class-image-2.jpg" class="weekly-classes" alt="weekly fitness clases image2">
                 <img src="assets/images/class-image-3.jpg" class="weekly-classes" alt="weekly fitness clases image3">
@@ -76,9 +83,10 @@
             </div>
         </section>
     </main>
-    <!-- about us page -->
+
+    <!-- about us section -->
     <article id="about-us-hero">
-        <div class="abt-us-1">
+        <div class="abt-us-section-1">
             <h2>about us</h2>
             <p>
                 Women of all backgrounds are invited to our gym so that they can stay in shape without feeling
@@ -92,7 +100,7 @@
                 us.
             </p>
         </div>
-        <div class="abt-us-2">
+        <div class="abt-us-section-2">
             <h3>We offer the following facilities:</h3>
             <ul>
                 <li>Range of equipment e.g treadmills</li>
@@ -115,7 +123,7 @@
     </article>
 
     <!-- contact us page -->
-    <form action="thank-you.html" method="post" id="main-form">
+    <form action="thank-you.html" method="get" target="_blank" id="form-hero">
         <h2>contact us</h2>
         <fieldset>
             <legend>enter your details:</legend>
@@ -134,13 +142,13 @@
 
 
             <label for="subject">subject:</label>
-            <textarea name="subject" id="subject" cols="10" rows="7" required>subject</textarea>
+            <textarea name="subject" id="subject" cols="10" rows="7" required></textarea>
 
             <div class="promotion-email">
                 <h3>Do you wish to receive notifications about promotions?</h3>
-                <label for="yes" class="email-promo">yes</label>
+                <label for="yes" class="promotion-choice">yes</label>
                 <input type="radio" id="yes" name="notifications" value="yes">
-                <label for="no" class="email-promo">no</label>
+                <label for="no" class="promotion-choice">no</label>
                 <input type="radio" id="no" name="notifications" value="no">
             </div>
 
