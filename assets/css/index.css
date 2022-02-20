@@ -61,20 +61,20 @@ header {
   position: relative;
 }
 .exercise-image1 {
-  height: 500px;
   width: 40%;
   background-image: url(../images/women-exercising.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  height: 500px;
 }
 .exercise-image2 {
-  height: 500px;
   width: 60%;
   background-image: url(../images/women-exercising2.jpg);
   background-size: cover;
   background-position: top right;
   background-repeat: no-repeat;
+  height: 500px;
 }
 .exercise-image-text {
   background-color: rgba(0, 0, 0, 0.274);
@@ -163,11 +163,11 @@ header {
 #about-us-hero {
   margin: 60px 50px 10px 50px;
 }
-.abt-us-section-1 {
+.abt-us-section {
   width: 50%;
   margin: 0 auto 0 auto;
 }
-.abt-us-section-1 > h2 {
+.abt-us-section > h2 {
   background-color: rgb(0, 0, 0);
   font-size: 250%;
   text-align: center;
@@ -175,7 +175,7 @@ header {
   font-family: "Rubik Mono One", sans-serif;
   padding: 10px;
 }
-.abt-us-section-1 > p {
+.abt-us-section > p {
   text-transform: lowercase;
   font-size: 150%;
   margin: 20px;
@@ -184,10 +184,11 @@ header {
   padding: 20px;
   border-radius: 10px;
 }
-.abt-us-section-2 {
+.abt-us-facilities-section {
   margin-top: 50px;
+
 }
-.abt-us-section-2 > h3 {
+.abt-us-facilities-section > h3 {
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
   text-align: center;
@@ -197,7 +198,7 @@ header {
   margin-bottom: 20px;
   padding: 10px;
 }
-.abt-us-section-2 > ul {
+.abt-us-facilities-section > ul {
   padding-left: 40px;
   column-count: 3;
   font-size: 130%;
@@ -388,7 +389,6 @@ input[type="submit"]:hover {
     font-size: 150%;
   }
   .monthly-prices-image {
-    background-position: center;
     height: 380px;
   }
 
@@ -403,11 +403,11 @@ input[type="submit"]:hover {
   #about-us-hero {
     margin: 40px;
   }
-  .abt-us-section-2 > h3 {
+  .abt-us-facilities-section > h3 {
     font-size: 170%;
     margin-top: 40px;
   }
-  .abt-us-section-2 > ul {
+  .abt-us-facilities-section > ul {
     font-size: 125%;
   }
   /* contact us SUBMIT section */
@@ -448,7 +448,6 @@ input[type="submit"]:hover {
     height: 450px;
   }
   .exercise-image-text {
-    position: absolute;
     top: 110px;
     right: 37%;
     padding: 13px;
@@ -473,29 +472,23 @@ input[type="submit"]:hover {
     font-size: 215%;
     width: 70%;
   }
-  .weekly-classes {
-    width: 33.33%;
-  }
 
   /* about us  page */
 
   #about-us-hero {
     margin: 60px 30px 10px 30px;
   }
-  .abt-us-section-1 {
+  .abt-us-section {
     width: 55%;
   }
-  .abt-us-section-1 > p {
+  .abt-us-section > p {
     font-size: 140%;
   }
 
-  .abt-us-section-2 {
+  .abt-us-facilities-section {
     margin-top: 60px;
   }
-  .abt-us-section-2 > h3 {
-    font-size: 170%;
-  }
-  .abt-us-section-2 > ul {
+  .abt-us-facilities-section > ul {
     font-size: 130%;
   }
 
@@ -624,11 +617,10 @@ input[type="submit"]:hover {
     height: 400px;
   }
   .exercise-image-text {
-    position: absolute;
     top: 80px;
-    right: 40%;
-    width: 100px;
-    line-height: 16px;
+    right: 35%;
+    width: 120px;
+    line-height: 20px;
     font-size: 110%;
     padding: 12px;
   }
@@ -646,11 +638,6 @@ input[type="submit"]:hover {
     border: 5px solid rgb(255, 255, 255);
     box-shadow: 4px 6px rgb(172, 255, 47);
   }
-  .monthly-price {
-    font-style: italic;
-    color: rgb(255, 99, 71);
-    border-bottom: 3px solid rgb(255, 99, 71);
-  }
   .monthly-prices-image {
     height: 340px;
   }
@@ -660,7 +647,6 @@ input[type="submit"]:hover {
   #weekly-classes-hero > h2 {
     padding: 30px;
     font-size: 210%;
-    width: 70%;
   }
   .weekly-classes {
     width: 50%;
@@ -671,19 +657,16 @@ input[type="submit"]:hover {
   #about-us-hero {
     margin: 60px 35px 10px 35px;
   }
-  .abt-us-section-1 {
+  .abt-us-section {
     width: 65%;
   }
-  .abt-us-section-1 > h2 {
+  .abt-us-section > h2 {
     font-size: 230%;
   }
-  .abt-us-section-2 {
-    margin-top: 60px;
-  }
-  .abt-us-section-2 > h3 {
+  .abt-us-facilities-section > h3 {
     font-size: 165%;
   }
-  .abt-us-section-2 > ul {
+  .abt-us-facilities-section > ul {
     padding-left: 40px;
     column-count: 2;
   }
@@ -793,7 +776,6 @@ input[type="submit"]:hover {
     height: 370px;
   }
   .exercise-image-text {
-    position: absolute;
     top: 200px;
     right: 5%;
     width: 100px;
@@ -807,7 +789,6 @@ input[type="submit"]:hover {
     font-size: 150%;
   }
   #hero-monthly-prices {
-    margin-top: 3rem;
     height: 370px;
     width: 100%;
     display: inline-block;
@@ -833,27 +814,23 @@ input[type="submit"]:hover {
   #weekly-classes-hero > h2 {
     font-size: 200%;
   }
-  .weekly-classes {
-    width: 50%;
-  }
 
   /* about us  page */
 
-  .abt-us-section-1 {
+  .abt-us-section {
     width: 80%;
   }
-  .abt-us-section-1 > h2 {
+  .abt-us-section > h2 {
     font-size: 225%;
   }
-  .abt-us-section-1 > p {
+  .abt-us-section > p {
     font-size: 130%;
     margin: 15px;
   }
-  .abt-us-section-2 > h3 {
+  .abt-us-facilities-section > h3 {
     font-size: 155%;
   }
-  .abt-us-section-2 > ul {
-    column-count: 2;
+  .abt-us-facilities-section > ul {
     font-size: 120%;
   }
 
@@ -962,8 +939,6 @@ input[type="submit"]:hover {
   }
 
   #nav-hero ul li {
-    display: inline-block;
-    margin: 0 5px;
     margin: 0 3px 0 8px;
     font-size: 120%;
   }
@@ -980,7 +955,6 @@ input[type="submit"]:hover {
     height: 280px;
   }
   .exercise-image-text {
-    position: absolute;
     top: 150px;
     right: 15px;
     width: 105px;
@@ -998,7 +972,6 @@ input[type="submit"]:hover {
   }
   #hero-monthly-prices > h2 {
     font-size: 100%;
-    position: absolute;
     top: 50px;
     right: 60px;
     width: 60%;
@@ -1006,7 +979,6 @@ input[type="submit"]:hover {
     box-shadow: 2px 3px rgb(172, 255, 47);
   }
   .monthly-prices-image {
-    width: 100%;
     height: 340px;
   }
 
@@ -1016,32 +988,28 @@ input[type="submit"]:hover {
     font-size: 190%;
     width: 60%;
   }
-  .weekly-classes {
-    width: 50%;
-  }
 
   /* about us  page */
 
   #about-us-hero {
     margin: 30px;
   }
-  .abt-us-section-1 {
+  .abt-us-section {
     width: 100%;
   }
-  .abt-us-section-1 > h2 {
+  .abt-us-section > h2 {
     font-size: 220%;
   }
-  .abt-us-section-1 > p {
+  .abt-us-section > p {
     font-size: 120%;
   }
-  .abt-us-section-2 {
+  .abt-us-facilities-section {
     margin-top: 50px;
   }
-  .abt-us-section-2 > h3 {
+  .abt-us-facilities-section > h3 {
     font-size: 140%;
   }
-  .abt-us-section-2 > ul {
-    column-count: 2;
+  .abt-us-facilities-section > ul {
     font-size: 110%;
   }
 
@@ -1130,7 +1098,6 @@ input[type="submit"]:hover {
     font-size: 100%;
   }
   .exercise-image-text {
-    position: absolute;
     top: 150px;
     right: 15px;
     width: 95px;
@@ -1146,10 +1113,6 @@ input[type="submit"]:hover {
     top: 40px;
     left: 30px;
   }
-  .monthly-prices-image {
-    width: 100%;
-    height: 340px;
-  }
 
   /* section three weekly classes */
 
@@ -1163,16 +1126,16 @@ input[type="submit"]:hover {
 
   /* about us page */
 
-  .abt-us-section-1 > h2 {
+  .abt-us-section > h2 {
     font-size: 180%;
   }
-  .abt-us-section-1 > p {
+  .abt-us-section > p {
     font-size: 100%;
   }
-  .abt-us-section-2 > h3 {
+  .abt-us-facilities-section > h3 {
     font-size: 125%;
   }
-  .abt-us-section-2 > ul {
+  .abt-us-facilities-section > ul {
     column-count: 1;
     font-size: 120%;
   }
@@ -1237,7 +1200,7 @@ input[type="submit"]:hover {
 
 /* higher-resolution screens 1600px+ */
 
-@media screen and (min-width: 2000px) {
+@media screen and (min-width: 1650px) {
   header {
     padding: 80px;
   }
@@ -1262,10 +1225,7 @@ input[type="submit"]:hover {
   /* main page */
 
   #exercise-images-outer {
-    width: 100%;
     margin-top: 50px;
-    display: flex;
-    position: relative;
   }
   .exercise-image1 {
     height: 700px;
@@ -1274,34 +1234,7 @@ input[type="submit"]:hover {
     height: 700px;
   }
   .exercise-image-text {
-    position: absolute;
     top: 200px;
-    right: 40%;
-    width: 160px;
     font-size: 160%;
-  }
-
-  /* section two */
-
-  .welcome-gym-text {
-    padding: 40px;
-    font-size: 250%;
-    margin-top: 40px;
-  }
-  #hero-monthly-prices {
-    margin-top: 5rem;
-    height: 600px;
-    width: 100%;
-  }
-  #hero-monthly-prices > h2 {
-    margin: 100px auto 100px auto;
-    padding: 20px;
-    font-size: 250%;
-    width: 20%;
-    border-radius: 15px;
-  }
-  .monthly-prices-image {
-    height: 600px;
-    width: 50%;
   }
 }
