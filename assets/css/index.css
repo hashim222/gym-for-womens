@@ -15,12 +15,15 @@ a {
   color: rgb(0, 0, 0);
 }
 header {
-  background-color: rgb(80, 226, 57);
+  background-color: rgba(0, 247, 0, 0.664);
   color: rgb(255, 255, 255);
   display: flex;
   justify-content: flex-end;
   padding: 50px;
   font-family: "Anton", sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 3;
 }
 .gym-image-logo {
   height: 2.8rem;
@@ -44,8 +47,12 @@ header {
   font-size: 140%;
 }
 #nav-hero ul li a:hover {
-  border-bottom: 3px solid rgb(255, 0, 0);
-  transition: 150ms ease-in-out;
+  color: rgba(0, 0, 0, 0.678);
+  border-bottom: 3px solid rgb(248, 42, 6);
+  transition: 150ms;
+}
+#nav-hero ul li:first-of-type {
+  border-bottom: 3px solid rgb(248, 42, 6);
 }
 .nav-icon {
   padding-top: 5px;
@@ -59,6 +66,7 @@ header {
   margin-top: 30px;
   display: flex;
   position: relative;
+  z-index: 2;
 }
 .exercise-image1 {
   width: 40%;
@@ -312,6 +320,7 @@ input[type="submit"]:hover {
 #footer-hero a:hover {
   color: rgb(172, 255, 47);
   border-bottom: 2px solid rgb(255, 255, 255);
+  transition: 150ms ease-in-out;
 }
 #opening-hours-hero > h2, #inquiry-hero > h2, #social-media-hero > h2{
   color: rgb(172, 255, 47);
