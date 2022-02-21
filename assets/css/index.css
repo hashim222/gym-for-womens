@@ -170,6 +170,7 @@ header {
 
 #about-us-hero {
   margin: 60px 50px 10px 50px;
+  scroll-margin-top: 215px;
 }
 .abt-us-section {
   width: 50%;
@@ -216,6 +217,7 @@ header {
 
 #form-hero {
   margin: 80px 25px 30px 25px;
+  scroll-margin-top: 180px;
 }
 #form-hero > h2 {
   color: rgb(0, 0, 0);
@@ -568,15 +570,12 @@ input[type="submit"]:hover {
 /* medim screen-size 768px*/
 
 @media screen and (max-width: 768px) {
-  header {
-    padding: 60px;
-  }
   .gym-image-logo {
     height: 2rem;
   }
   #gym-logo {
     font-size: 120%;
-    margin: 0 auto 0 -60px;
+    margin: 0 auto 0 -50px;
     padding-left: 10px;
   }
 
@@ -720,14 +719,14 @@ input[type="submit"]:hover {
   }
   #gym-logo {
     font-size: 110%;
-    margin-left: -20px;
+    margin-left: -10px;
     margin-bottom: 30px;
   }
 
   /* nav bar page */
 
   #nav-hero ul {
-    margin-top: 10px;
+    margin-top: 5px;
     margin-right: auto;
     text-align: center;
   }
@@ -873,7 +872,7 @@ input[type="submit"]:hover {
 
 @media screen and (max-width: 500px) {
   header {
-    padding: 15px;
+    padding: 12px;
   }
   .gym-image-logo {
     height: 1.7rem;
@@ -888,7 +887,7 @@ input[type="submit"]:hover {
   /* nav bar page */
 
   #nav-hero ul {
-    margin-top: 10px;
+    margin-top: 4px;
   }
 
   #nav-hero ul li {
@@ -946,6 +945,7 @@ input[type="submit"]:hover {
 
   #about-us-hero {
     margin: 30px;
+    scroll-margin-top: 180px;
   }
   .abt-us-section {
     width: 100%;
@@ -1168,5 +1168,14 @@ input[type="submit"]:hover {
   .exercise-image-text {
     top: 200px;
     font-size: 160%;
+  }
+
+  /* abtout us section */
+  #about-us-hero {
+    scroll-margin-top: 290px;
+  }
+  /* contact us page section */
+  #form-hero{
+    scroll-margin-top: 270px;
   }
 }
