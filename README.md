@@ -10,8 +10,7 @@ Website's link [GYM FOR WOMEN](https://hashim222.github.io/gym-for-womens/index.
 ![this is an image for my project for all different screen sizes](assets/images/readme-images/project-screenshot.png)
 
 # My choice of color for UX
-### I chose a color scheme that is user-friendly and gym-friendly for the gym for women website. 
-### In the color reference section below, you will find a list of all the colors used on this site.
+### I chose a color scheme, which is both user-friendly and gym-friendly for the gym for women website. In the color reference section below, you will find a list of all the colors used on this site.
 
 ## Color Reference
 
@@ -74,20 +73,27 @@ Website's link [GYM FOR WOMEN](https://hashim222.github.io/gym-for-womens/index.
   ![this is an image for navigation for gym for women](assets/images/readme-images/nav-for-gym.png)
 
 * ## Main Page 
-  * On the page, I added a long line below the big welcome text for users to make the text look clearer.
-  * We provide our users with a clear monthly price and 10% off for joining our gym when they join.
-  * To encourage users to join, an image of our indoor main workout area was added.
+  * With this section, we wanted to greet our users and welcome new users with a bonus.
+  * The chart clearly shows that our new member of gym will receive a 10% discount on their first month's membership and that the monthly fee is clearly stated.
+  * To encourage users to join our gym, an image of our indoor main workout area was added.
 
   ![this is an image for welcoming new customer](assets/images/readme-images/welcome-gym.png)
 
 * ## Our Classes
-  * Through our classes, we ensure that our users are aware of our weekly classes so they are able to attend.
+  * To ensure our users are aware of our weekly classes so they can attend, I added large text to our weekly classes.
   * Added multiple images so that our users know what to expect in our weekly classes.
 
  ![this is an image for our weekly classes](assets/images/readme-images/fittnes-classes.png)
 
  * ## About Us
     * Upon clicking the about us link at the top of the navigation page, you will be directed to a section about us.
-    * This page lets users know what we are about before they join our gym.
+    * We want users to know what we're about before they join our gym by providing this page.
 
     ![this is an image for our weekly classes](assets/images/readme-images/abt-us-image.png)
+
+  * ## Contact Us
+    * The contact us link at the top of the navigation page will take you to the contact us section, where you will find the form.
+    *  The contact us section was created for users with any questions/enquiries about the gym. 
+    * In this section, users will fill out the form by entering their personal information.
+
+    ![this is an image for contact us page for a site](assets/images/readme-images/contact-us.png)

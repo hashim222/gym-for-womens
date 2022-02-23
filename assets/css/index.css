@@ -292,6 +292,14 @@ input[type="submit"]:hover {
 
 /* contact us SUBMIT section */
 
+.thank-u-image {
+  width: 100%;
+  background-image: url(../images/thank-you-image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
 .thank-u-page-text {
   background-color: rgba(0, 0, 0, 0.274);
   position: absolute;
@@ -538,6 +546,10 @@ input[type="submit"]:hover {
 
   /* contact us submit page */
 
+  .thank-u-image{
+    height: 450px;
+  }
+
   .thank-u-page-text {
     top: 140px;
     width: 500px;
@@ -666,6 +678,10 @@ input[type="submit"]:hover {
   }
 
   /* contact us submit page */
+
+  .thank-u-image {
+    height: 400px;
+  }
 
   .thank-u-page-text {
     right: 15%;
@@ -830,6 +846,10 @@ input[type="submit"]:hover {
 
   /* contact us submit page */
 
+  .thank-u-image {
+    height: 370px;
+  }
+
   .thank-u-page-text {
     right: 18%;
     width: 350px;
@@ -993,6 +1013,11 @@ input[type="submit"]:hover {
   }
 
   /* contact us submit page */
+
+  .thank-u-image {
+    height: 280px;
+    background-position: center;
+  }
 
   .thank-u-page-text {
     top: 70px;
@@ -1176,5 +1201,8 @@ input[type="submit"]:hover {
   /* contact us page section */
   #form-hero{
     scroll-margin-top: 270px;
+  }
+  .thank-u-image {
+    height: 700px;
   }
 }
