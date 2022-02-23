@@ -1,6 +1,6 @@
 # GYM FOR WOMEN 
 
-## introduction
+# introduction
 The Gym for Women site was designed for women from diverse backgrounds who are uncomfortable in mixed gyms.
 
 The website of GYM FOR WOMEN provides all the information users need about this gym: welcome for new customers, a joining discount for first-time customers, our weekly fitness classes, how to contact us, our opening and closing hours, where to find us, and finally, how to follow us on social media.
@@ -12,22 +12,22 @@ Website's link [GYM FOR WOMEN](https://hashim222.github.io/gym-for-womens/index.
 # My choice of color for UX
 ### I chose a color scheme, which is both user-friendly and gym-friendly for the gym for women website. In the color reference section below, you will find a list of all the colors used on this site.
 
-## Color Reference
+* ## Color Reference
 
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| Black | ![#0a192f](https://via.placeholder.com/10/000000?text=+) #000000 |
-| Light Black | ![#00b48a](https://via.placeholder.com/10/000000ad?text=+) #000000ad |
-| Light Grey | ![#00d1a0](https://via.placeholder.com/10/00000046?text=+) #00000046 |
-| Very Light Grey | ![#00d1a0](https://via.placeholder.com/10/8080808c?text=+) #8080808c |
-| Solid Dark Grey | ![#00d1a0](https://via.placeholder.com/10/000000bd?text=+) #000000bd |
-| Transparent Grey | ![#00d1a0](https://via.placeholder.com/10/0000002c?text=+) #0000002c |
-| White | ![#f8f8f8](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
-| Bright Lime Green | ![#00d1a0](https://via.placeholder.com/10/00f700a1?text=+) #00f700a1 |
-| Light Lime Green | ![#00d1a0](https://via.placeholder.com/10/00f700a9?text=+) #00f700a9 | 
-| Greenyellow | ![#00d1a0](https://via.placeholder.com/10/acff2f?text=+) #acff2f |
-| Red | ![#00d1a0](https://via.placeholder.com/10/f82a06?text=+) #f82a06 |
-| Orange| ![#00d1a0](https://via.placeholder.com/10/ffa600?text=+) #ffa600 | 
+  | Color             | Hex                                                                |
+  | ----------------- | ------------------------------------------------------------------ |
+  | Black | ![#0a192f](https://via.placeholder.com/10/000000?text=+) #000000 |
+  | Light Black | ![#00b48a](https://via.placeholder.com/10/000000ad?text=+) #000000ad |
+  | Light Grey | ![#00d1a0](https://via.placeholder.com/10/00000046?text=+) #00000046 |
+  | Very Light Grey | ![#00d1a0](https://via.placeholder.com/10/8080808c?text=+) #8080808c |
+  | Solid Dark Grey | ![#00d1a0](https://via.placeholder.com/10/000000bd?text=+) #000000bd |
+  | Transparent Grey | ![#00d1a0](https://via.placeholder.com/10/0000002c?text=+) #0000002c |
+  | White | ![#f8f8f8](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
+  | Bright Lime Green | ![#00d1a0](https://via.placeholder.com/10/00f700a1?text=+) #00f700a1 |
+  | Light Lime Green | ![#00d1a0](https://via.placeholder.com/10/00f700a9?text=+) #00f700a9 | 
+  | Greenyellow | ![#00d1a0](https://via.placeholder.com/10/acff2f?text=+) #acff2f |
+  | Tomato | ![#00d1a0](https://via.placeholder.com/10/ff6347?text=+) #ff6347 |
+  | Orange| ![#00d1a0](https://via.placeholder.com/10/ffa600?text=+) #ffa600 | 
 
 # Font Used For UX
 
@@ -50,7 +50,7 @@ Website's link [GYM FOR WOMEN](https://hashim222.github.io/gym-for-womens/index.
 * ## Header 
   * A header is located at the top of the page, with a logo and navigation inside.
 
-![this is an image is for header](assets/images/readme-images/header-for-gym.png)
+  ![this is an image is for header](assets/images/readme-images/header-for-gym.png)
 
 * ## Logo
 
@@ -58,7 +58,7 @@ Website's link [GYM FOR WOMEN](https://hashim222.github.io/gym-for-womens/index.
   * Also, it's the logo for the gym for women. It links to the top of the page.
 
 
-  ![this is an image for gym for women](assets/images/readme-images/header-page-logo.png)
+  ![this is an image for gym for women logo](assets/images/readme-images/header-page-logo.png)
 
 * ## Navigation 
 
@@ -83,13 +83,17 @@ Website's link [GYM FOR WOMEN](https://hashim222.github.io/gym-for-womens/index.
   * To ensure our users are aware of our weekly classes so they can attend, I added large text to our weekly classes.
   * Added multiple images so that our users know what to expect in our weekly classes.
 
- ![this is an image for our weekly classes](assets/images/readme-images/fittnes-classes.png)
+  ![this is an image for our weekly classes](assets/images/readme-images/fittnes-classes.png)
 
  * ## About Us
     * Upon clicking the about us link at the top of the navigation page, you will be directed to a section about us.
     * We want users to know what we're about before they join our gym by providing this page.
+    * Once the user joins our gym, they can access to variety of different facilities.
+    * Users can take advantage of these facilities whenever they want to visit the gym.
 
-    ![this is an image for our weekly classes](assets/images/readme-images/abt-us-image.png)
+   ![this is an image for our about us](assets/images/readme-images/abt-us-image.png)
+   ![this is an image for our facilities for gym](assets/images/readme-images/our-facilities.png)
+
 
   * ## Contact Us
     * The contact us link at the top of the navigation page will take you to the contact us section, where you will find the form.
@@ -102,8 +106,16 @@ Website's link [GYM FOR WOMEN](https://hashim222.github.io/gym-for-womens/index.
 
     * When the user tries to submit a form without providing the required details, a pop-up required text will appear, telling them to fill that required details.
     * The user will be taken to a thank you page after completing the form and clicking on the submit button.
-![this is an image requird warning](assets/images/readme-images/required-image.png)
 
-![this is an image submit button](assets/images/readme-images/submit-form.png)
+    ![this is an image requird warning](assets/images/readme-images/required-image.png)
+    ![this is an image submit button](assets/images/readme-images/submit-form.png)
+    ![this is an image thank you page](assets/images/readme-images/thank-u-readme.png)
 
-![this is an image thank you page](assets/images/readme-images/thank-u-readme.png)
+   * ## Footer Section
+
+    * In the footer section, I added 3 nested sub-sections by our opening hours, contacts, and our social media.
+    * Users can visit us during our opening hours by checking our opening hours.
+    * Contact support provides email and phone numbers as well as our location. If you want to register with us, you can either visit us in person or do it online by filling out our contact us form.
+    * Users can follow us on these social media platforms: Facebook, Twitter, Instagram, and Tiktok.
+
+   ![this is an image for our about us](assets/images/readme-images/footer-section.png)
