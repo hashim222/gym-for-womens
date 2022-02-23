@@ -97,3 +97,13 @@ Website's link [GYM FOR WOMEN](https://hashim222.github.io/gym-for-womens/index.
     * In this section, users will fill out the form by entering their personal information.
 
     ![this is an image for contact us page for a site](assets/images/readme-images/contact-us.png)
+
+  * ##  Submit Form
+
+    * When the user tries to submit a form without providing the required details, a pop-up required text will appear, telling them to fill that required details.
+    * The user will be taken to a thank you page after completing the form and clicking on the submit button.
+![this is an image requird warning](assets/images/readme-images/required-image.png)
+
+![this is an image submit button](assets/images/readme-images/submit-form.png)
+
+![this is an image thank you page](assets/images/readme-images/thank-u-readme.png)
