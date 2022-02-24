@@ -1,6 +1,6 @@
 # GYM FOR WOMEN 
 
-# introduction
+## introduction
 The Gym for Women site was designed for women from diverse backgrounds who are uncomfortable in mixed gyms.
 
 The website of GYM FOR WOMEN provides all the information users need about this gym: welcome for new customers, a joining discount for first-time customers, our weekly fitness classes, how to contact us, our opening and closing hours, where to find us, and finally, how to follow us on social media.
@@ -12,7 +12,7 @@ Website's link [GYM FOR WOMEN](https://hashim222.github.io/gym-for-womens/index.
 # My choice of color for UX
 ### I chose a color scheme, which is both user-friendly and gym-friendly for the gym for women website. In the color reference section below, you will find a list of all the colors used on this site.
 
-* ## Color Reference
+   ## Color Reference
 
   | Color             | Hex                                                                |
   | ----------------- | ------------------------------------------------------------------ |
@@ -89,7 +89,7 @@ Website's link [GYM FOR WOMEN](https://hashim222.github.io/gym-for-womens/index.
     * Upon clicking the about us link at the top of the navigation page, you will be directed to a section about us.
     * We want users to know what we're about before they join our gym by providing this page.
     * Once the user joins our gym, they can access to variety of different facilities.
-    * Users can take advantage of these facilities whenever they want to visit the gym.
+    * Users can take advantage of these facilities whenever they want to visit the gym.  
 
    ![this is an image for our about us](assets/images/readme-images/abt-us-image.png)
    ![this is an image for our facilities for gym](assets/images/readme-images/our-facilities.png)
@@ -113,9 +113,21 @@ Website's link [GYM FOR WOMEN](https://hashim222.github.io/gym-for-womens/index.
 
    * ## Footer Section
 
-    * In the footer section, I added 3 nested sub-sections by our opening hours, contacts, and our social media.
-    * Users can visit us during our opening hours by checking our opening hours.
-    * Contact support provides email and phone numbers as well as our location. If you want to register with us, you can either visit us in person or do it online by filling out our contact us form.
-    * Users can follow us on these social media platforms: Facebook, Twitter, Instagram, and Tiktok.
+      * In the footer, I added three nested sub-sections for our opening hours, contacts, and social media.
+      * By checking our opening hours, users can find out when we are open.
+      * Contact support provides email and phone numbers as well as our location. If you want to register with us, you can either visit us in person or do it online by filling out our contact us form.
+      * Users can follow us on these social media platforms: Facebook, Twitter, Instagram, and Tiktok.
 
-   ![this is an image for our about us](assets/images/readme-images/footer-section.png)
+     ![this is an image for our about us](assets/images/readme-images/footer-section.png)
+ 
+
+   * ## Home Page
+     * I also stuck navigation on top of the page by using [position: sticky](https://www.w3schools.com/howto/howto_css_sticky_element.asp) which sticks elements where you want them to be.
+
+     * When the user scrolls down the page, the navigation remains at the top of the page. This makes it easier for the user to get to the top of the page rather than scrolling at the top. This is done by simply clicking the home button or gym logo.
+
+     ![this is an image showing how to get to home page](assets/images/readme-images/home-page.png)
+
+# Testing
+
+ ### You can find out what testing has been done for the site, and what bugs were found by visiting [testing.md](testing.md).
