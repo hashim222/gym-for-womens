@@ -5,13 +5,13 @@
 
   ![this is an image showing website works on differnt sizes devices](assets/images/readme-images/devices-resolutions.png)
 
-# Bugs
+## Bugs
 
 * When I checked into the lighthouse, I encountered an accessibility lower score, so I had to change the color contrast from red to tomato.
 
   ![this image for bug Issue](assets/images/readme-images/bug-color.png)
 
-## Accessibility 
+### Accessibility 
 
 * I checked accessibility using the Google Chrome dev tools lighthouse. I got a score of 100 for accessibility.
 
