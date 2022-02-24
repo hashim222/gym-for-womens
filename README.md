@@ -118,7 +118,7 @@ Website's link [GYM FOR WOMEN](https://hashim222.github.io/gym-for-womens/index.
       * Contact support provides email and phone numbers as well as our location. If you want to register with us, you can either visit us in person or do it online by filling out our contact us form.
       * Users can follow us on these social media platforms: Facebook, Twitter, Instagram, and Tiktok.
 
-     ![this is an image for our about us](assets/images/readme-images/footer-section.png)
+     ![this is an image for footer section](assets/images/readme-images/footer-section.png)
  
 
    * ## Home Page
@@ -130,4 +130,17 @@ Website's link [GYM FOR WOMEN](https://hashim222.github.io/gym-for-womens/index.
 
 # Testing
 
- ### You can find out what testing has been done for the site, and what bugs were found by visiting [testing.md](testing.md).
+* ### You can find out what testing has been done for the site, and what bugs were found by visiting [testing.md](testing.md).  
+
+# Deplyoment
+
+* ### The site was deployed to GitHub pages. Here are the steps:
+  * Navigate the Settings tab in the GitHub [repository](https://github.com/hashim222/gym-for-womens).
+  * From the source section drop-down menu, select the Master Branch
+  * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.  
+
+  You can find the link here [GYM FOR WOMEN](https://hashim222.github.io/gym-for-womens/)
+
+    ![this is an image showing how i did deploy repo in github](assets/images/readme-images/github-repo-deploy.png)
+
+# Credits
