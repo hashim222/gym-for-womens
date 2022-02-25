@@ -7,19 +7,19 @@
 body {
   text-transform: capitalize;
 }
-
-/* header section */
-
 a {
   text-decoration: none;
   color: rgb(0, 0, 0);
 }
+
+/* header section */
+
 header {
-  background-color: rgba(0, 247, 0, 0.664);
+  background-color: rgba(0, 247, 0, 0.911);
   color: rgb(255, 255, 255);
   display: flex;
   justify-content: flex-end;
-  padding: 50px;
+  padding: 25px;
   font-family: "Anton", sans-serif;
   position: sticky;
   top: 0;
@@ -31,16 +31,14 @@ header {
 #gym-logo {
   font-size: 140%;
   margin-right: auto;
-  margin-top: -10px;
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 /* navbar section */
 
 #nav-hero ul {
-  margin-top: 10px;
+  margin-top: 18px;
 }
-
 #nav-hero ul li {
   display: inline-block;
   margin: 0 10px;
@@ -63,7 +61,6 @@ header {
 
 #exercise-images-outer {
   width: 100%;
-  margin-top: 30px;
   display: flex;
   position: relative;
 }
@@ -105,7 +102,7 @@ header {
   padding: 30px;
   font-family: "Krona One", sans-serif;
   font-size: 200%;
-  margin-top: 30px;
+  margin-top: 15px;
   border-bottom: 2px solid rgb(0, 0, 0);
 }
 #hero-monthly-prices {
@@ -152,7 +149,7 @@ header {
   text-align: center;
   font-size: 230%;
   font-family: "Krona One", sans-serif;
-  border-bottom: 10px solid rgb(172, 255, 47);
+  border-bottom: 10px solid rgba(0, 247, 0, 0.808);
   width: 50%;
 }
 .weekly-classes-images-hero {
@@ -168,7 +165,7 @@ header {
 
 #about-us-hero {
   margin: 60px 50px 10px 50px;
-  scroll-margin-top: 215px;
+  scroll-margin-top: 175px;
 }
 .abt-us-section {
   width: 50%;
@@ -215,7 +212,7 @@ header {
 
 #form-hero {
   margin: 80px 25px 30px 25px;
-  scroll-margin-top: 180px;
+  scroll-margin-top: 170px;
   font-family: "Krona One", sans-serif;
 }
 #form-hero > h2 {
@@ -301,9 +298,9 @@ input[type="submit"]:hover {
 }
 
 .thank-u-page-text {
-  background-color: rgba(0, 0, 0, 0.274);
+  background-color: rgba(0, 0, 0, 0.76);
   position: absolute;
-  top: 150px;
+  top: 200px;
   right: 30%;
   width: 600px;
   line-height: 35px;
@@ -420,6 +417,7 @@ input[type="submit"]:hover {
 
   #about-us-hero {
     margin: 40px;
+    scroll-margin: 155px;
   }
   .abt-us-facilities-section > h3 {
     font-size: 170%;
@@ -441,18 +439,14 @@ input[type="submit"]:hover {
     height: 2.3rem;
   }
   #gym-logo {
-    font-size: 130%;
-    margin: -10px auto 0 -55px;
+    font-size: 125%;
+    margin: 0 auto 0 -30px;
     padding-left: 20px;
   }
 
   /* nav bar page */
-
-  #nav-hero ul {
-    margin: 5px -20px -20px 0;
-  }
   #nav-hero ul li {
-    font-size: 125%;
+    font-size: 120%;
   }
 
   /* main page */
@@ -549,7 +543,6 @@ input[type="submit"]:hover {
   .thank-u-image{
     height: 450px;
   }
-
   .thank-u-page-text {
     top: 140px;
     width: 500px;
@@ -558,9 +551,11 @@ input[type="submit"]:hover {
   }
 
   /* footer section */
+
   #footer-hero {
     padding-top: 25px;
   }
+
   /* our opening hours section */
 
   #opening-hours-hero {
@@ -585,26 +580,21 @@ input[type="submit"]:hover {
     height: 2rem;
   }
   #gym-logo {
-    font-size: 120%;
-    margin: 0 auto 0 -50px;
-    padding-left: 10px;
+    font-size: 110%;
+    padding-left: 15px;
   }
 
   /* nav bar page */
 
   #nav-hero ul {
-    margin: 15px -45px 0 0;
+    margin: 16px -15px 10px 0;
   }
   #nav-hero ul li {
     margin: 0 5px;
-    font-size: 115%;
+    font-size: 110%;
   }
 
   /* main page */
-
-  #exercise-images-outer {
-    margin-top: 25px;
-  }
   .exercise-image1 {
     height: 400px;
   }
@@ -682,7 +672,6 @@ input[type="submit"]:hover {
   .thank-u-image {
     height: 400px;
   }
-
   .thank-u-page-text {
     right: 15%;
     width: 450px;
@@ -730,7 +719,7 @@ input[type="submit"]:hover {
   header {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 10px;
   }
   #gym-logo {
     font-size: 110%;
@@ -749,12 +738,8 @@ input[type="submit"]:hover {
     margin: 0 10px;
     font-size: 140%;
   }
-
   /* main page */
 
-  #exercise-images-outer {
-    margin-top: 30px;
-  }
   .exercise-image1 {
     height: 370px;
   }
@@ -789,6 +774,7 @@ input[type="submit"]:hover {
     right: 65px;
     border: 4px solid rgb(255, 255, 255);
     box-shadow: 3px 5px rgb(172, 255, 47);
+    background-color: rgba(0, 0, 0, 0.76);
   }
   .monthly-prices-image {
     width: 100%;
@@ -799,10 +785,13 @@ input[type="submit"]:hover {
 
   #weekly-classes-hero > h2 {
     font-size: 200%;
+    padding: 10px;
   }
 
   /* about us  page */
-
+  #about-us-hero {
+    scroll-margin: 210px;
+  }
   .abt-us-section {
     width: 80%;
   }
@@ -849,7 +838,6 @@ input[type="submit"]:hover {
   .thank-u-image {
     height: 370px;
   }
-
   .thank-u-page-text {
     right: 18%;
     width: 350px;
@@ -891,7 +879,7 @@ input[type="submit"]:hover {
 
 @media screen and (max-width: 500px) {
   header {
-    padding: 12px;
+    padding: 10px;
   }
   .gym-image-logo {
     height: 1.7rem;
@@ -901,12 +889,6 @@ input[type="submit"]:hover {
     margin-right: auto;
     margin-top: 10px;
     padding-left: 15px;
-  }
-
-  /* nav bar page */
-
-  #nav-hero ul {
-    margin-top: 4px;
   }
 
   #nav-hero ul li {
@@ -1018,10 +1000,9 @@ input[type="submit"]:hover {
     height: 280px;
     background-position: center;
   }
-
   .thank-u-page-text {
     top: 70px;
-    left: 10%;
+    left: 16%;
     width: 55%;
     line-height: 30px;
     font-size: 110%;
@@ -1061,12 +1042,23 @@ input[type="submit"]:hover {
   #nav-hero ul li {
     font-size: 100%;
   }
+
+  /* main page section*/
+
   .exercise-image-text {
     top: 150px;
     right: 15px;
     width: 95px;
     font-size: 90%;
     padding: 15px;
+  }
+  .exercise-image1 {
+    height: 250px;
+    background-position: center;
+  }
+  .exercise-image2 {
+    height: 250px;
+    background-position: right;
   }
 
   /* main section */
@@ -1109,7 +1101,6 @@ input[type="submit"]:hover {
   #form-hero > h2 {
     font-size: 180%;
   }
-
   fieldset {
     width: 95%;
   }
@@ -1158,14 +1149,14 @@ input[type="submit"]:hover {
 
 @media screen and (min-width: 1650px) {
   header {
-    padding: 80px;
+    padding: 40px;
   }
   .gym-image-logo {
     height: 4rem;
   }
   #gym-logo {
-    font-size: 160%;
-    margin-top: -5px;
+    font-size: 170%;
+    margin-top: 5px;
   }
 
   /* nav bar page */
@@ -1175,14 +1166,10 @@ input[type="submit"]:hover {
   }
 
   #nav-hero ul li {
-    font-size: 170%;
+    font-size: 160%;
   }
 
   /* main page */
-
-  #exercise-images-outer {
-    margin-top: 50px;
-  }
   .exercise-image1 {
     height: 700px;
   }
@@ -1196,13 +1183,20 @@ input[type="submit"]:hover {
 
   /* abtout us section */
   #about-us-hero {
-    scroll-margin-top: 290px;
+    scroll-margin-top: 220px;
   }
   /* contact us page section */
   #form-hero{
     scroll-margin-top: 270px;
   }
-  .thank-u-image {
+  .thank-u-image{
     height: 700px;
   }
+  .thank-u-page-text {
+      top: 260px;
+      right: 32%;
+      width: 600px;
+      line-height: 45px;
+      font-size: 250%;
+    }
 }

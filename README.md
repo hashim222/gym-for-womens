@@ -9,7 +9,7 @@ Website's link [GYM FOR WOMEN](https://hashim222.github.io/gym-for-womens/index.
 ![this is an image for my project for all different screen sizes](assets/images/readme-images/project-screenshot.png)
 
 ##  My choice of color for UX
-* ###  I chose a color scheme, which is both user-friendly and gym-friendly for the gym for women website. In the color reference section below, you will find a list of all the colors used on this site.
+*  I chose a color scheme, which is both user-friendly and gym-friendly for the gym for women website. In the color reference section below, you will find a list of all the colors used on this site.
 
   ## Color Reference
 
@@ -20,14 +20,15 @@ Website's link [GYM FOR WOMEN](https://hashim222.github.io/gym-for-womens/index.
   | Light Grey | ![#00d1a0](https://via.placeholder.com/10/00000046?text=+) #00000046 |
   | Very Light Grey | ![#00d1a0](https://via.placeholder.com/10/8080808c?text=+) #8080808c |
   | Solid Dark Grey | ![#00d1a0](https://via.placeholder.com/10/000000bd?text=+) #000000bd |
+  | Jet| ![#00d1a0](https://via.placeholder.com/10/000000c2?text=+) #000000c2 |
   | Transparent Grey | ![#00d1a0](https://via.placeholder.com/10/0000002c?text=+) #0000002c |
   | White | ![#f8f8f8](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
   | Bright Lime Green | ![#00d1a0](https://via.placeholder.com/10/00f700a1?text=+) #00f700a1 |
-  | Light Lime Green | ![#00d1a0](https://via.placeholder.com/10/00f700a9?text=+) #00f700a9 | 
+  | Dark Lime Green| ![#00d1a0](https://via.placeholder.com/10/00f700e8?text=+) #00f700e8 | 
   | Greenyellow | ![#00d1a0](https://via.placeholder.com/10/acff2f?text=+) #acff2f |
   | Tomato | ![#00d1a0](https://via.placeholder.com/10/ff6347?text=+) #ff6347 |
   | Orange| ![#00d1a0](https://via.placeholder.com/10/ffa600?text=+) #ffa600 | 
-
+  
 ## Font Used For UX
 
 * ### There are three font styles used throughout this site:  
