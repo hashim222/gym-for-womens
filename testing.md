@@ -9,9 +9,9 @@
 * ### Bugs Occurred
   * When I clicked on about us or contact us through the navigation, the main text of about us and contact us was hidding.
 
-    ![this image for buggy about us](assets/images/readme-images/buggy-abt-us.)
+    ![this image for buggy about us](assets/images/readme-images/buggy-abt-us.png)
 
-    ![this image for buggy contact us](assets/images/readme-images/buggy-contact-us.)
+    ![this image for buggy contact us](assets/images/readme-images/buggy-contact-us.png)
   
   * When I checked into the lighthouse, I encountered an accessibility lower score, the reason being that the color contrast wasn't matching with the background.
  
@@ -19,13 +19,16 @@
 
 
   *  Therefore, I used a scroll-margin in CSS to fix this issue.
-      ![this image for fixed about us issue](assets/images/readme-images/fixed-abt-us.)
+      ![this image for fixed about us issue](assets/images/readme-images/fixed-abt-us.png)
 
-     ![this image for fixed conatct us issue](assets/images/readme-images/fixed-conatct-us.)  
+     ![this image for fixed conatct us issue](assets/images/readme-images/fixed-contact-us.png)  
 
     * I had to change the color contrast from red to tomato.
 
       ![this image for bug color Issue](assets/images/readme-images/bug-color.png)
+
+* ### Unfixed Bugs
+  * when you click on contact us or about us, the border-bottom line disappears. I can fix this issue by using javascript but I haven't learned that yet so in the future I will fix this bug.
 
 ### Accessibility 
 
@@ -37,23 +40,23 @@ Several Slack users helped me out by checking my project score on their own devi
 However, I wasn't sure so I reached out to tutor support, and they confirmed their score was same as other users, which led me to realize the lower performance was related to hardware/software, rather than the code itself.  
 As a result, I uploaded my lighthouse report screenshot and another user's report screenshot for my project, for mobile and desktop both.      
  
- ### Other User Screenshots.
-* ### [Desktop](assets/images/readme-images/other-user-lighthouse-dekstop.png)
+ * ### Other User Screenshots.
+   * ### [Desktop](assets/images/readme-images/other-user-lighthouse-dekstop.png)
 
-    ![this is an image of other user desktop](assets/images/readme-images/other-user-lighthouse-dekstop.)
+     ![this is an image of other user desktop](assets/images/readme-images/other-user-lighthouse-desktop.png)
     
-* ### [Mobile](assets/images/readme-images/other-user-lighthouse-phones.png)
+     * ### [Mobile](assets/images/readme-images/other-user-lighthouse-phones.png)
 
-  ![this is an image of other user android](assets/images/readme-images/other-user-lighthouse-phones.)
+      ![this is an image of other user android](assets/images/readme-images/other-user-lighthouse-phones.png)
 
- ### My own device screenshots.
-* ### [Desktop](assets/images/readme-images/my-lighthouse-desktop.png)
+ * ### My own device screenshots.
+   * ### [Desktop](assets/images/readme-images/my-lighthouse-desktop.png)
 
-  ![this is an image of my devices for desktop](assets/images/readme-images/my-lighthouse-desktop.)
+     ![this is an image of my devices for desktop](assets/images/readme-images/my-lighthouse-desktop.png)
     
-* ### [Mobile](assets/images/readme-images/my-lighthouse-phones.png)
+   * ### [Mobile](assets/images/readme-images/my-lighthouse-phones.png)
 
-  ![this is an image of my devices for android](assets/images/readme-images/my-lighthouse-phones.)
+     ![this is an image of my devices for android](assets/images/readme-images/my-lighthouse-phones.png)
 
 ## Code Validator Testing
  * HTML 

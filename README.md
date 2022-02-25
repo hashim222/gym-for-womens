@@ -11,24 +11,24 @@ Website's link [GYM FOR WOMEN](https://hashim222.github.io/gym-for-womens/index.
 ##  My choice of color for UX
 *  I chose a color scheme, which is both user-friendly and gym-friendly for the gym for women website. In the color reference section below, you will find a list of all the colors used on this site.
 
-  ## Color Reference
+  * ## Color Reference
 
-  | Color             | Hex                                                                |
-  | ----------------- | ------------------------------------------------------------------ |
-  | Black | ![#0a192f](https://via.placeholder.com/10/000000?text=+) #000000 |
-  | Light Black | ![#00b48a](https://via.placeholder.com/10/000000ad?text=+) #000000ad |
-  | Light Grey | ![#00d1a0](https://via.placeholder.com/10/00000046?text=+) #00000046 |
-  | Very Light Grey | ![#00d1a0](https://via.placeholder.com/10/8080808c?text=+) #8080808c |
-  | Solid Dark Grey | ![#00d1a0](https://via.placeholder.com/10/000000bd?text=+) #000000bd |
-  | Jet| ![#00d1a0](https://via.placeholder.com/10/000000c2?text=+) #000000c2 |
-  | Transparent Grey | ![#00d1a0](https://via.placeholder.com/10/0000002c?text=+) #0000002c |
-  | White | ![#f8f8f8](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
-  | Bright Lime Green | ![#00d1a0](https://via.placeholder.com/10/00f700a1?text=+) #00f700a1 |
-  | Dark Lime Green| ![#00d1a0](https://via.placeholder.com/10/00f700e8?text=+) #00f700e8 | 
-  | Greenyellow | ![#00d1a0](https://via.placeholder.com/10/acff2f?text=+) #acff2f |
-  | Tomato | ![#00d1a0](https://via.placeholder.com/10/ff6347?text=+) #ff6347 |
-  | Orange| ![#00d1a0](https://via.placeholder.com/10/ffa600?text=+) #ffa600 | 
-  
+    | Color             | Hex                                                                |
+    | ----------------- | ------------------------------------------------------------------ |
+    | Black | ![#0a192f](https://via.placeholder.com/10/000000?text=+) #000000 |
+    | Light Black | ![#00b48a](https://via.placeholder.com/10/000000ad?text=+) #000000ad |
+    | Light Grey | ![#00d1a0](https://via.placeholder.com/10/00000046?text=+) #00000046 |
+    | Very Light Grey | ![#00d1a0](https://via.placeholder.com/10/8080808c?text=+) #8080808c |
+    | Solid Dark Grey | ![#00d1a0](https://via.placeholder.com/10/000000bd?text=+) #000000bd |
+    | Jet| ![#00d1a0](https://via.placeholder.com/10/000000c2?text=+) #000000c2 |
+    | Transparent Grey | ![#00d1a0](https://via.placeholder.com/10/0000002c?text=+) #0000002c |
+    | White | ![#f8f8f8](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
+    | Bright Lime Green | ![#00d1a0](https://via.placeholder.com/10/00f700a1?text=+) #00f700a1 |
+    | Dark Lime Green| ![#00d1a0](https://via.placeholder.com/10/00f700e8?text=+) #00f700e8 | 
+    | Greenyellow | ![#00d1a0](https://via.placeholder.com/10/acff2f?text=+) #acff2f |
+    | Tomato | ![#00d1a0](https://via.placeholder.com/10/ff6347?text=+) #ff6347 |
+    | Orange| ![#00d1a0](https://via.placeholder.com/10/ffa600?text=+) #ffa600 | 
+    
 ## Font Used For UX
 
 * ### There are three font styles used throughout this site:  
@@ -73,6 +73,13 @@ Website's link [GYM FOR WOMEN](https://hashim222.github.io/gym-for-womens/index.
 
     ![this is an image for navigation for gym for women](assets/images/readme-images/nav-for-gym.png)
 
+* ### Home page
+  * By adding white text on top of the images, we attract our target audience, which is women.
+
+  * This section contains two images that are grouped, with the left image taking up 40% of the width and the right image taking up 60%. This was done on purpose. 
+
+    ![this is an image home page section](assets/images/readme-images/home-page-section.png)
+   
 * ### Main Page 
   * With this section, we wanted to greet our users and welcome new users with a bonus.
   * The chart clearly shows that our new member of gym will receive a 10% discount on their first month's membership and that the monthly fee is clearly stated.
@@ -131,11 +138,14 @@ Website's link [GYM FOR WOMEN](https://hashim222.github.io/gym-for-womens/index.
 
 ## Testing
 
-* ### You can find out what testing has been done for the site, and what bugs were found by visiting [testing.md](testing.md).  
+*  You can find out what testing has been done for the site, and what bugs were found by visiting [testing.md](testing.md). 
+
+## Technologies Used
+
 
 ## Deplyoment
 
-* ### The site was deployed to GitHub pages. Here are the steps:
+* The site was deployed to GitHub pages. Here are the steps:
   * Navigate the Settings tab in the GitHub [repository](https://github.com/hashim222/gym-for-womens).
   * From the source section drop-down menu, select the Master Branch
   * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.  
