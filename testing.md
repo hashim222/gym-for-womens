@@ -6,10 +6,26 @@
   ![this is an image showing website works on differnt sizes devices](assets/images/readme-images/devices-resolutions.png)
 
 ## Bugs
+* ### Bugs Occurred
+  * When I clicked on about us or contact us through the navigation, the main text of about us and contact us was hidding.
 
-* When I checked into the lighthouse, I encountered an accessibility lower score, so I had to change the color contrast from red to tomato.
+    ![this image for buggy about us](assets/images/readme-images/buggy-abt-us.png)
 
-  ![this image for bug Issue](assets/images/readme-images/bug-color.png)
+    ![this image for buggy contact us](assets/images/readme-images/buggy-contact-us.png)
+  
+  * When I checked into the lighthouse, I encountered an accessibility lower score, the reason being that the color contrast wasn't matching with the background.
+ 
+* ### Bugs Fixed
+
+
+  *  Therefore, I used a scroll-margin in CSS to fix this issue.
+      ![this image for fixed about us issue](assets/images/readme-images/fixed-abt-us.png)
+
+     ![this image for fixed conatct us issue](assets/images/readme-images/fixed-conatct-us.png)  
+
+    * I had to change the color contrast from red to tomato.
+
+      ![this image for bug color Issue](assets/images/readme-images/bug-color.png)
 
 ### Accessibility 
 

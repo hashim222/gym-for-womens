@@ -48,17 +48,18 @@ Website's link [GYM FOR WOMEN](https://hashim222.github.io/gym-for-womens/index.
 
 * ### Header 
   * A header is located at the top of the page, with a logo and navigation inside.
-
+  * To make the text look different, the logo was intentionally placed on the left side of the screen for smaller devices rather than in the middle.
     ![this is an image is for header](assets/images/readme-images/header-for-gym.png)
+
+    ![this is an image for gym for women logo](assets/images/readme-images/smaller-device-header.png)
 
 * ### Logo
 
   * The name of the gym is displayed in the left corner of the header.
   * Also, it's the logo for the gym for women. It links to the top of the page.
 
-
     ![this is an image for gym for women logo](assets/images/readme-images/header-page-logo.png)
-
+  
 * ### Navigation 
 
   * Navigation is located in the header section, right corner.
@@ -146,6 +147,15 @@ Website's link [GYM FOR WOMEN](https://hashim222.github.io/gym-for-womens/index.
 
  * ### Content
    * Font Awesome provided a kit that didn't work, so I had to use the [CDNJS](https://cdnjs.com/libraries/font-awesome) site to make font awesome work.
-   * I used [font-awesome](https://fontawesome.com/) to create icons for this website.
-   * By using the [Google font](https://fonts.google.com/) site, I used font-family and a few [google icons](https://fonts.google.com/icons). 
+   * I created the social media and navigation icons for this website using [font-awesome](https://fontawesome.com/).
+   * By using the [Google font](https://fonts.google.com/) site, I used font-family and a few [Google icons](https://fonts.google.com/icons) in this site. 
+   * Some of the layout of the header was taken from [LOVE RUNNING](https://code-institute-org.github.io/love-running-2.0/index.html).
+   * Some of Our facilities text was taken from [Fitness First](https://www.fitnessfirst.co.uk/classes-facilities/facilities/).
+   * In order to better understand some of the HTML tags and CSS selectors, I sometimes used, [W3School](https://www.w3schools.com/) and [MDN Web Docs](https://developer.mozilla.org/en-US/).
+   * By making this project I had plenty of help from the [Slack](https://slack.com/intl/en-gb/) community.
+   * I used the [AM I RESPONSIVE](http://ami.responsivedesign.is/) website to check how my site looks on different devices and took screenshots from there.
+
+ * ### Media
+   * The welcome gym image was taken from [BURST](https://burst.shopify.com/) 
+   * Throughout the rest of the website, images were taken from [Pexels](https://www.pexels.com/)
    
