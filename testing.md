@@ -19,6 +19,7 @@
 
 
   *  Therefore, I used a scroll-margin in CSS to fix this issue.
+
       ![this image for fixed about us issue](assets/images/readme-images/fixed-abt-us.png)
 
      ![this image for fixed conatct us issue](assets/images/readme-images/fixed-contact-us.png)  
@@ -30,22 +31,22 @@
 * ### Unfixed Bugs
   * when you click on contact us or about us, the border-bottom line disappears. I can fix this issue by using javascript but I haven't learned that yet so in the future I will fix this bug.
 
-### Accessibility 
+  ### Accessibility 
 
-* I checked accessibility using the Google Chrome dev tools lighthouse. I got a score of 100 for accessibility.
+   * I checked accessibility using the Google Chrome dev tools lighthouse. I got a score of 100 for accessibility.
 
-### Performance
-* My project report was generated using Google Chrome lighthouse. I was having an issue that I kept getting a Low-Performance score, sometimes it got to below 85. When I tried checking in the incognito window mode, the same issue was occurring so I reached out to Slack to ask about this issue.  
+  ### Performance
+   * My project report was generated using Google Chrome lighthouse. I was having an issue that I kept getting a Low-Performance score, sometimes it got to below 85. When I tried checking in the incognito window mode, the same issue was occurring so I reached out to Slack to ask about this issue.  
 Several Slack users helped me out by checking my project score on their own devices. The score appeared to be perfectly fine on their devices.  
 However, I wasn't sure so I reached out to tutor support, and they confirmed their score was same as other users, which led me to realize the lower performance was related to hardware/software, rather than the code itself.  
 As a result, I uploaded my lighthouse report screenshot and another user's report screenshot for my project, for mobile and desktop both.      
  
  * ### Other User Screenshots.
-   * ### [Desktop](assets/images/readme-images/other-user-lighthouse-dekstop.png)
+   * ### [Desktop](assets/images/readme-images/other-user-lighthouse-dekstop.png) 
 
      ![this is an image of other user desktop](assets/images/readme-images/other-user-lighthouse-desktop.png)
-    
-     * ### [Mobile](assets/images/readme-images/other-user-lighthouse-phones.png)
+
+    * ### [Mobile](assets/images/readme-images/other-user-lighthouse-phones.png)
 
       ![this is an image of other user android](assets/images/readme-images/other-user-lighthouse-phones.png)
 

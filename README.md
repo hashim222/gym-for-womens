@@ -141,6 +141,35 @@ Website's link [GYM FOR WOMEN](https://hashim222.github.io/gym-for-womens/index.
 *  You can find out what testing has been done for the site, and what bugs were found by visiting [testing.md](testing.md). 
 
 ## Technologies Used
+* These are the technologies that were used to make this project.
+
+  * [HTML](https://www.w3schools.com/html/default.asp)
+  
+  * [CSS](https://www.w3schools.com/css/)
+  
+  * [CDNJS](https://cdnjs.com/libraries/font-awesome) 
+  
+  * [Font Awesome](https://fontawesome.com/)
+  
+  * [Google icons](https://fonts.google.com/icons)
+  
+  * [Google font](https://fonts.google.com/)
+  
+  * [W3School](https://www.w3schools.com/)
+  
+  * [AM I RESPONSIVE](http://ami.responsivedesign.is/)
+  
+  * [MDN Web Docs](https://developer.mozilla.org/en-US/)
+
+  * [BURST](https://burst.shopify.com/)
+
+  * [pexels](https://www.pexels.com/)
+
+  * [git](https://git-scm.com/)
+
+  * [github](https://github.com/)
+
+  * [gitpod workspace](https://gitpod.io/workspaces)
 
 
 ## Deplyoment
@@ -154,17 +183,28 @@ Website's link [GYM FOR WOMEN](https://hashim222.github.io/gym-for-womens/index.
 
     ![this is an image showing how i did deploy repo in github](assets/images/readme-images/github-repo-deploy.png)
 
+ * ### Cloning this repo
+   * Follow these steps to make a clone of the gym for womens repo:    
+        * If the user wants to clone this project, the user needs to locate [gym for womens](https://github.com/hashim222/gym-for-womens) Code in the dropdown menu and select either download zip or open with Github Desktop.
+
+          ![this is an image for how cloning by download zip](assets/images/readme-images/cloning-zip-download.png)
+
+        * A user can copy and paste the link into their git terminal by clicking GitHub CLI and the Copy button in the Code Dropdown menu.
+
+            ![this is an image for how cloning by links](assets/images/readme-images/cloning-links.png)
+   
 ## Credits
 
  * ### Content
-   * Font Awesome provided a kit that didn't work, so I had to use the [CDNJS](https://cdnjs.com/libraries/font-awesome) site to make font awesome work.
-   * I created the social media and navigation icons for this website using [font-awesome](https://fontawesome.com/).
-   * By using the [Google font](https://fonts.google.com/) site, I used font-family and a few [Google icons](https://fonts.google.com/icons) in this site. 
    * Some of the layout of the header was taken from [LOVE RUNNING](https://code-institute-org.github.io/love-running-2.0/index.html).
-   * Some of Our facilities text was taken from [Fitness First](https://www.fitnessfirst.co.uk/classes-facilities/facilities/).
-   * In order to better understand some of the HTML tags and CSS selectors, I sometimes used, [W3School](https://www.w3schools.com/) and [MDN Web Docs](https://developer.mozilla.org/en-US/).
+
+   * Some of Our facilities text was taken from [Fitness First](https://www.fitnessfirst.co.uk/classes-facilities/facilities/)
+
    * By making this project I had plenty of help from the [Slack](https://slack.com/intl/en-gb/) community.
-   * I used the [AM I RESPONSIVE](http://ami.responsivedesign.is/) website to check how my site looks on different devices and took screenshots from there.
+
+   * To make the HTML form, I took a bit of help from [w3school](https://www.w3schools.com/html/html_forms.asp).
+
+   * To make a color reference table in the readme, I used [readme.so](https://readme.so/editor)
 
  * ### Media
    * The welcome gym image was taken from [BURST](https://burst.shopify.com/) 

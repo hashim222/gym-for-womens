@@ -946,7 +946,7 @@ input[type="submit"]:hover {
 
   #about-us-hero {
     margin: 30px;
-    scroll-margin-top: 180px;
+    scroll-margin-top: 170px;
   }
   .abt-us-section {
     width: 100%;
@@ -1012,7 +1012,7 @@ input[type="submit"]:hover {
 
   #opening-hours-hero > h2 {
     margin-bottom: 5px;
-  font-size: 120%;
+    font-size: 120%;
   }
   #opening-hours-hero > p {
     padding: 3px;
