@@ -49,10 +49,12 @@ Website's link [GYM FOR WOMEN](https://hashim222.github.io/gym-for-womens/index.
 
 * ### Header 
   * A header is located at the top of the page, with a logo and navigation inside.
-  * To make the text look different, the logo was intentionally placed on the left side of the screen for smaller devices rather than in the middle.
+
     ![this is an image is for header](assets/images/readme-images/header-for-gym.png)
 
-    ![this is an image for gym for women logo](assets/images/readme-images/smaller-device-header.png)
+  * To make the text look different, the logo was intentionally placed on the left side of the screen for smaller devices rather than in the middle.
+
+    ![this is an image for how gym for women logo looks for smaller devices](assets/images/readme-images/smaller-device-header.png)
 
 * ### Logo
 
@@ -96,9 +98,11 @@ Website's link [GYM FOR WOMEN](https://hashim222.github.io/gym-for-womens/index.
  * ### About Us
     * Upon clicking the about us link at the top of the navigation page, you will be directed to a section about us.
     * I want users to know what we're about before they join our gym by providing this page.
-    * Upon joining our gym, the user will be able to make use of a range of different facilities and participate in several different kinds of workouts advantage by joining our gym.
 
       ![this is an image for our about us](assets/images/readme-images/abt-us-image.png)
+
+    * By joining our gym, the user will have access to a variety of facilities and can participate in many different types of workouts.
+
       ![this is an image for our facilities for gym](assets/images/readme-images/our-facilities.png)
 
 
@@ -112,10 +116,13 @@ Website's link [GYM FOR WOMEN](https://hashim222.github.io/gym-for-womens/index.
   * ###  Submit Form
 
     * When the user tries to submit a form without providing the required details, a pop-up required text will appear, telling them to fill that required details.
-    * The user will be taken to a thank you page after completing the form and clicking on the submit button.
 
       ![this is an image requird warning](assets/images/readme-images/required-image.png)
+
+    * The user will be taken to a thank you page after completing the form and clicking on the submit button.
+
       ![this is an image submit button](assets/images/readme-images/submit-form.png)
+      
       ![this is an image thank you page](assets/images/readme-images/thank-u-readme.png)
 
    * ### Footer Section

@@ -1,6 +1,12 @@
 # Testing
 
-  NOTE: The readme file was built before the last mentor session so there were a lot of changes made. Too many screenshots need to be changed so I did add some of the needed new screenshots. Some of the screenshots I did not add because it was too time-consuming, so I just wrote them in the readme file.
+  NOTE: The readme file was built before the last mentor session so there were a lot of changes made after the last session with mentor. Too many screenshots need to be changed so I did add some of the needed new screenshots. Some of the screenshots I did not add because it was too time-consuming, so I just wrote them in the readme file.
+
+  In the commit, some bad names were used. Gitpod had a problem with its live server, and I was struggling with it. Therefore I chose to save it on GitHub to see what the website looks like. Later on, in the mentor session, mentor said I wasn't supposed to do that.
+
+   ![this is an image of showing bad commit made in the git, one](assets/images/readme-images/git-bad-commit-one.png)  
+
+   ![this is an image of showing bad commit made in the git, two](assets/images/readme-images/git-bad-commit-two.png)
 
 * I tested this website on three different browsers: Google Chrome, Microsoft Edge and Firefox.
 * The website works perfectly on all the different devices listed at the bottom of the text image.
@@ -31,7 +37,7 @@
       ![this image for bug color Issue](assets/images/readme-images/bug-color.png)
 
 * ### Unfixed Bugs
-  * when you click on contact us or about us, the border-bottom line disappears. I can fix this issue by using javascript but I haven't learned that yet so in the future I will fix this bug.
+  * when you click on contact us or about us, the border-bottom disappears. I can fix this issue by using javascript but I haven't learned that yet so in the future I will fix this bug.
 
   ### Accessibility 
 
