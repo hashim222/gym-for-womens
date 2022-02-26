@@ -1,5 +1,7 @@
 # Testing
 
+  NOTE: The readme file was built before the last mentor session so there were a lot of changes made. Too many screenshots need to be changed so I did add some of the needed new screenshots. Some of the screenshots I did not add because it was too time-consuming, so I just wrote them in the readme file.
+
 * I tested this website on three different browsers: Google Chrome, Microsoft Edge and Firefox.
 * The website works perfectly on all the different devices listed at the bottom of the text image.
 

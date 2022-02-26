@@ -2,7 +2,7 @@
 
 ## introduction
 The Gym for Women site was designed for women from diverse backgrounds who are uncomfortable in mixed gyms.
-The website of GYM FOR WOMEN provides all the information users need about this gym: Welcome for new customers, A joining discount for first-time customers, Our weekly fitness classes, How to contact us, Our opening and closing hours, Where to find us, And finally, How to follow us on social media.
+The website of GYM FOR WOMEN provides all the information users need about this gym such as, A welcome text to new customers, Our weekly fitness classes, our facilities, How to contact us, Our opening and closing hours, Where to find us, And finally, How to follow us on social media.
 
 Website's link [GYM FOR WOMEN](https://hashim222.github.io/gym-for-womens/index.html)
 
@@ -63,26 +63,26 @@ Website's link [GYM FOR WOMEN](https://hashim222.github.io/gym-for-womens/index.
   
 * ### Navigation 
 
-  * Navigation is located in the header section, right corner.
+  * Navigation is located in the header section, right corner of desktops and for the smaller screen is located in the center.
   * There are three links in the navigation: Home, About Us, and Contact Us.
-  * All navigation sections are on the same page, but are separated into different sections.
+  * All navigation sections are linked on the same page but are separated into different sections.
   * I made it easier for the user to navigate by adding icons to the navigation.
-  * I left under the Home link a red bottom line to tell the user these are links.
+  * I used the red border-bottom under the home button to tell the user these are links.
   * When you scroll down the page, the navigation remains at the top of the page, making it easier for the user to get to the top of the page rather than scrolling at the top.
 
 
     ![this is an image for navigation for gym for women](assets/images/readme-images/nav-for-gym.png)
 
 * ### Home page
-  * By adding white text on top of the images, we attract our target audience, which is women.
+  * The main section of the website contains white text above the images to attract the users' attention and indicate that the text is important.
 
-  * This section contains two images that are grouped, with the left image taking up 40% of the width and the right image taking up 60%. This was done on purpose. 
+  * This section contains two images that are grouped, with The left image took up 40% of the width, while the right image took up 60% of the width. This was done on purpose so visitors can see more of what the gym has to offer such as the gym equipments.
 
     ![this is an image home page section](assets/images/readme-images/home-page-section.png)
    
-* ### Main Page 
+* ### Welcome User section 
   * With this section, we wanted to greet our users and welcome new users with a bonus.
-  * The chart clearly shows that our new member of gym will receive a 10% discount on their first month's membership and that the monthly fee is clearly stated.
+  * In the box it clearly states that a new gym member will receive a 10% discount on their first month's membership, along with the price of the monthly membership.
   * To encourage users to join our gym, an image of our indoor main workout area was added.
 
     ![this is an image for welcoming new customer](assets/images/readme-images/welcome-gym.png)
@@ -95,9 +95,8 @@ Website's link [GYM FOR WOMEN](https://hashim222.github.io/gym-for-womens/index.
 
  * ### About Us
     * Upon clicking the about us link at the top of the navigation page, you will be directed to a section about us.
-    * We want users to know what we're about before they join our gym by providing this page.
-    * Once the user joins our gym, they can access to variety of different facilities.
-    * Users can take advantage of these facilities whenever they want to visit the gym.  
+    * I want users to know what we're about before they join our gym by providing this page.
+    * Upon joining our gym, the user will be able to make use of a range of different facilities and participate in several different kinds of workouts advantage by joining our gym.
 
       ![this is an image for our about us](assets/images/readme-images/abt-us-image.png)
       ![this is an image for our facilities for gym](assets/images/readme-images/our-facilities.png)
@@ -105,7 +104,7 @@ Website's link [GYM FOR WOMEN](https://hashim222.github.io/gym-for-womens/index.
 
   * ### Contact Us
     * The contact us link at the top of the navigation page will take you to the contact us section, where you will find the form.
-    *  The contact us section was created for users with any questions/enquiries about the gym. 
+    * The contact us section was created for users with any questions/enquiries about the gym. 
     * In this section, users will fill out the form by entering their personal information.
 
       ![this is an image for contact us page for a site](assets/images/readme-images/contact-us.png)
@@ -130,7 +129,7 @@ Website's link [GYM FOR WOMEN](https://hashim222.github.io/gym-for-womens/index.
  
 
    * ### Home Page
-     * I also stuck navigation on top of the page by using [position: sticky](https://www.w3schools.com/howto/howto_css_sticky_element.asp) which sticks elements where you want them to be.
+     * I also stick navigation on top of the page by using [position: sticky](https://www.w3schools.com/howto/howto_css_sticky_element.asp) which sticks elements where you want them to be.
 
      * When the user scrolls down the page, the navigation remains at the top of the page. This makes it easier for the user to get to the top of the page rather than scrolling at the top. This is done by simply clicking the home button or gym logo.
 

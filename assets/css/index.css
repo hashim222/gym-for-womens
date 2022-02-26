@@ -81,7 +81,7 @@ header {
   height: 500px;
 }
 .exercise-image-text {
-  background-color: rgba(0, 0, 0, 0.274);
+  background-color: rgba(0, 0, 0, 0.678);
   position: absolute;
   top: 150px;
   right: 40%;
@@ -774,7 +774,7 @@ input[type="submit"]:hover {
     right: 65px;
     border: 4px solid rgb(255, 255, 255);
     box-shadow: 3px 5px rgb(172, 255, 47);
-    background-color: rgba(0, 0, 0, 0.76);
+    background-color: rgba(0, 0, 0, 0.678);
   }
   .monthly-prices-image {
     width: 100%;
@@ -908,10 +908,10 @@ input[type="submit"]:hover {
     height: 280px;
   }
   .exercise-image-text {
-    top: 150px;
-    right: 15px;
+    top: 140px;
+    right: 30px;
     width: 105px;
-    font-size: 85%;
+    font-size: 80%;
     padding: 15px;
   }
 
@@ -1046,11 +1046,11 @@ input[type="submit"]:hover {
   /* main page section*/
 
   .exercise-image-text {
-    top: 150px;
-    right: 15px;
+    top: 110px;
+    right: 30px;
     width: 95px;
-    font-size: 90%;
-    padding: 15px;
+    font-size: 70%;
+    padding: 12px;
   }
   .exercise-image1 {
     height: 250px;
