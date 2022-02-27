@@ -187,18 +187,24 @@ Website's link [GYM FOR WOMEN](https://hashim222.github.io/gym-for-womens/index.
 
   You can find the link here [GYM FOR WOMEN](https://hashim222.github.io/gym-for-womens/)
 
-    ![this is an image showing how i did deploy repo in github](assets/images/readme-images/github-repo-deploy.png)
+   ![this is an image showing how i did deploy repo in github](assets/images/readme-images/github-repo-deploy.png)
 
- * ### Cloning this repo
+ * ### Clone the project
+
    * Follow these steps to make a clone of the gym for womens repo:    
-        * If the user wants to clone this project, the user needs to locate [gym for womens](https://github.com/hashim222/gym-for-womens) Code in the dropdown menu and select either download zip or open with Github Desktop.
+        * If the user wants to clone this project, the user needs to locate [gym for womens repository](https://github.com/hashim222/gym-for-womens) Code in the dropdown menu and select either download zip or open with Github Desktop.
 
           ![this is an image for how cloning by download zip](assets/images/readme-images/cloning-zip-download.png)
 
         * A user can copy and paste the link into their git terminal by clicking GitHub CLI and the Copy button in the Code Dropdown menu.
+                    
+      OR
+        ```bash
+         gh repo clone hashim222/gym-for-womens
+        ```
 
-            ![this is an image for how cloning by links](assets/images/readme-images/cloning-links.png)
-   
+        ![this is an image for how cloning by links](assets/images/readme-images/cloning-links.png)
+             
 ## Credits
 
  * ### Content
